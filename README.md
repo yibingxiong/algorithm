@@ -1,2 +1,9 @@
-# algorithm
-算法学习 《算法》Robert sedgewick and Kevin Wayne  JavaScript实现
+# algorithm 算法
+
+## description
+
+算法学习练习
+
+课本 《算法》Robert sedgewick and Kevin Wayne 第四版
+
+JavaScript实现
