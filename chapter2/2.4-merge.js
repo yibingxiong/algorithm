@@ -33,5 +33,15 @@ function mergeSort(arr) {
 }
 
 
-console.log(mergeSort([1,2,3,5,6,3,4]));
+function mergeSort2(arr) {
+    let N = arr.length;
+    for(let sz = 1; sz < N ; sz=sz+sz) {
+        for (let lo = 0; lo < N -sz; lo += sz+sz) {
+            merge(arr, lo, lo + sz -1, Math.min(lo+sz+sz-1, N-1));
+        }
+    }
+    return arr;
+}
+
+console.log(mergeSort2([1,2,3,5,6,3,4]));
 // console.log(arr)
