@@ -1,0 +1,10 @@
+3
+0
+nam1 10
+na2 123
+njfdi 3
+3
+1
+jfdi 1
+ff 3
+dddd 2
