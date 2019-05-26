@@ -1,13 +1,17 @@
+
+function heapInsert(arr, index) {
+    while(arr[index] > arr[Math.round((index-1)/2)]) {
+        swap(arr, index, Math.round((index-1)/2));
+        index = Math.round((index-1)/2);
+    } 
+}
+
 // 将一个数组变成大根堆
 function toBigHeap(arr) {
     let size = 0;
     let len = arr.length;
     for(let i =0; i< len;i++) {
-        let index = i;
-        while(arr[index] > arr[Math.round((index-1)/2)]) {
-            swap(arr, index, Math.round((index-1)/2));
-            index = Math.round((index-1)/2);
-        }
+        heapInsert(arr, i);
     }
     return arr;
 }
