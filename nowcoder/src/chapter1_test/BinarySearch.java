@@ -73,7 +73,7 @@ public class BinarySearch {
 			if (a1 != a2) {
 				success = false;
 				printArray(arr);
-				System.out.println("要查找的值：" + v + "，暴力：" + a1 + ",二分：" + a2);
+				System.out.println("怎么回事啊" + v + "锛屾毚鍔涳細" + a1 + ",浜屽垎锛�" + a2);
 				return;
 			}
 		}
