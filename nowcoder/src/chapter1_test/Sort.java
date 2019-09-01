@@ -135,6 +135,7 @@ public class Sort {
 	}
 	public static void quickSort(int[] arr, int left, int right) {
 		if (left < right) {
+			swap(arr, left + (int) (Math.random() * (right - left + 1)), right);
 			int p = partiton(arr, left, right);
 			quickSort(arr, left, p-1);
 			quickSort(arr, p+1, right);
