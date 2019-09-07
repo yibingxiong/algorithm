@@ -54,45 +54,58 @@ public class IsPalindromeList {
 		return true;
 	}
 
+	// 纯使用指针判断是否是回文
+	// 这里考虑保存几个重要指针 中间指针， 中间指针的下一个， 最后一个， 以便于在恢复链表使用
 	public static boolean isPalindromeList3(Node head) {
 		if (head == null || head.next == null) {
 			return true;
 		}
-		Node n1 = head;
-		Node n2 = head;
-		while (n2.next != null && n2.next.next != null) { // find mid node
-			n1 = n1.next; // n1 -> mid
-			n2 = n2.next.next; // n2 -> end
+		Node slow = head;
+		Node fast = head;
+		while (fast.next != null && fast.next.next != null) {
+			slow = slow.next;
+			fast = fast.next.next;
 		}
-		n2 = n1.next; // n2 -> right part first node
-		n1.next = null; // mid.next -> null
-		Node n3 = null;
-		while (n2 != null) { // right part convert
-			n3 = n2.next; // n3 -> save next node
-			n2.next = n1; // next of right node convert
-			n1 = n2; // n1 move
-			n2 = n3; // n2 move
+		
+		// 上边几行走完，slow来到中间节点
+		Node mid = slow;	// 记录中间节点， 待会儿翻转他之后的节点
+		
+		Node rightFirst = slow.next;	// 右边部分的第一个节点， 需要翻转
+		mid.next = null;	// 将中间节点的下一个节点指到空， 避免成环
+		Node pre = null;
+		// 将右边部分翻转
+		Node cur = rightFirst;
+		while (cur != null) { // right part convert
+			Node next = cur.next; // n3 -> save next node
+			cur.next = pre; // next of right node convert
+			pre = cur;
+			cur = next;
 		}
-		n3 = n1; // n3 -> save last node
-		n2 = head;// n2 -> left first node
+		Node reverseRightFirst = pre;	// 右侧翻转后的第一个节点
+		Node cur1 = head;	// 左链遍历的当前节点
+		Node cur2 = reverseRightFirst;	// 右链遍历的当前节点
 		boolean res = true;
-		while (n1 != null && n2 != null) { // check palindrome
-			if (n1.value != n2.value) {
+		while (cur1 != null && cur2 != null) {
+			if (cur1.value != cur2.value) {
 				res = false;
 				break;
 			}
-			n1 = n1.next; // left to mid
-			n2 = n2.next; // right to mid
+			cur1 = cur1.next;
+			cur2 = cur2.next;
 		}
-		n1 = n3.next;
-		n3.next = null;
-		while (n1 != null) { // recover list
-			n2 = n1.next;
-			n1.next = n3;
-			n3 = n1;
-			n1 = n2;
+		
+		cur1 = null;	// 前一个
+		cur2 = reverseRightFirst;	// 当前
+		// 将右侧翻转的部分翻转回来
+		while (cur2 != null) { // recover list
+			Node next = cur2.next;
+			cur2.next = cur1;
+			cur1 = cur2;
+			cur2 = next;
 		}
-
+		
+		// 将中间节点连到 右边第一个节点
+		mid.next = rightFirst;
 		return res;
 	}
 
