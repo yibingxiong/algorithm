@@ -2,8 +2,6 @@ package chapter5;
 
 import java.util.LinkedList;
 
-import chapter5.BinaryTreeTraverse.Node;
-
 public class IsBst {
 
 	public static LinkedList<Integer> list = new LinkedList<>();
