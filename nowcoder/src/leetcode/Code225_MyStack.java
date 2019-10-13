@@ -31,7 +31,7 @@ class MyStack  {
 		while (size > 1) {
 			size--;
 			t = q.remove();
-			tmp.push(t);
+			tmp.add(t);
 		}
 		t = q.remove();
 		this.queue = tmp;
@@ -45,19 +45,23 @@ class MyStack  {
 		}
 		LinkedList<Integer> q = this.queue;
 		LinkedList<Integer> tmp = new LinkedList<>();
+		
 		int t = 0;
 		int size = q.size();
 		if (size == 1) {
-			return q.remove();
+			int a = q.remove();
+			tmp.add(a);
+			this.queue = tmp;
+			return a;
 		}
 
 		while (size > 1) {
 			size--;
 			t = q.remove();
-			tmp.push(t);
+			tmp.add(t);
 		}
-		t = q.remove();
-		tmp.push(t);
+		t = q.peek();
+		tmp.add(t);
 		this.queue = tmp;
 		return t;
 	}
@@ -72,11 +76,15 @@ public class Code225_MyStack {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		LinkedList<Integer> aIntegers = new LinkedList<>();
-		aIntegers.add(1);
-		aIntegers.add(2);
-		System.out.println(aIntegers.pop());
-		System.out.println(aIntegers.pop());
+		MyStack aIntegers = new MyStack();
+		aIntegers.push(1);
+		aIntegers.push(2);
+		aIntegers.top();
+		aIntegers.pop();
+		aIntegers.top();
+		aIntegers.top();
+//		aIntegers.pop();
+		aIntegers.empty();
 	}
 
 }
