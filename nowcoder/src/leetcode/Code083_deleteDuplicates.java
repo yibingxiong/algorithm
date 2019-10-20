@@ -14,27 +14,30 @@ class ListNode1 {
 public class Code083_deleteDuplicates {
 
 	public static ListNode1 deleteDuplicates(ListNode1 head) {
-		HashSet<Integer> hashSet = new HashSet<>();
-
-		ListNode1 cur = null;
-		ListNode1 newHead = null;
-		while (head != null) {
-			if (hashSet.contains(head.val)) {
-
-			} else {
-				hashSet.add(head.val);
-				System.out.println("dd" +head.val);
-				if (newHead == null) {
-					newHead = cur = new ListNode1(head.val);
-				} else {
-					cur.next = new ListNode1(head.val);
-					cur = cur.next;
-				}
-			}
-			head = head.next;
+		
+		if (head == null) {
+			return head;
 		}
-
+		
+		ListNode1 pointer1 = head;
+		ListNode1 pointer2 = head.next;
+		ListNode1 newHead = pointer1;
+		if (pointer2 == null) {
+			return head;
+		}
+		pointer1.next = null;
+		while(pointer2!=null) {
+			if (pointer1.val != pointer2.val) {
+				System.out.println("cc"+pointer1.val);
+				pointer1.next = new ListNode1(pointer2.val);
+				pointer1 = pointer1.next;
+			}
+			pointer2 = pointer2.next;
+		}
+		
+		
 		return newHead;
+		
 
 	}
 
