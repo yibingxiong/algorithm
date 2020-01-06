@@ -52,7 +52,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSubSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxSubSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/MaxSubSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
@@ -68,8 +68,29 @@
       <file leaf-file-name="MaxSubSumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="309">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/BinarySearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,8 +142,10 @@
         <option value="$PROJECT_DIR$/src/main/java/book/chapter1/section1/KMax.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter1/exercise/Code1_6Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter1/exercise/Code1_6.java" />
-        <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter2/section4/MaxSubSum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter2/section4/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/BinarySearchTest.java" />
       </list>
     </option>
   </component>
@@ -271,23 +294,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaxSubSumTest">
+  <component name="RunManager" selected="JUnit.BinarySearchTest.testSearch">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Code1_6Test.testPermute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinarySearchTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.chapter1.exercise.*" />
+          <option name="PATTERN" value="book.chapter2.section4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter1.exercise" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter1.exercise.Code1_6Test" />
-      <option name="METHOD_NAME" value="testPermute" />
+      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.BinarySearchTest" />
+      <option name="METHOD_NAME" value="testSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -429,19 +452,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Code1_6Test.testPermute" />
       <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum1" />
       <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum2" />
       <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum3" />
       <item itemvalue="JUnit.MaxSubSumTest" />
+      <item itemvalue="JUnit.BinarySearchTest.testSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTest.testSearch" />
         <item itemvalue="JUnit.MaxSubSumTest" />
         <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum1" />
         <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum3" />
         <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum2" />
-        <item itemvalue="JUnit.Code1_6Test.testPermute" />
       </list>
     </recent_temporary>
   </component>
@@ -455,44 +478,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="8382000" />
+      <workItem from="1578134240270" duration="9186000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxSubSumTest_testMaxSubSum2 - 2020.01.04 at 22h 39m 51s.xml">
-      <configuration name="MaxSubSumTest.testMaxSubSum2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxSubSumTest_testMaxSubSum3 - 2020.01.04 at 23h 17m 32s.xml">
-      <configuration name="MaxSubSumTest.testMaxSubSum3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxSubSumTest_testMaxSubSum1 - 2020.01.04 at 23h 17m 39s.xml">
-      <configuration name="MaxSubSumTest.testMaxSubSum1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxSubSumTest_testMaxSubSum1 - 2020.01.04 at 23h 17m 44s.xml">
-      <configuration name="MaxSubSumTest.testMaxSubSum1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 17m 49s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 08s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 12s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 13s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 15s.xml">
       <configuration name="MaxSubSumTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 16s.xml">
       <configuration name="MaxSubSumTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 28m 21s.xml">
+      <configuration name="MaxSubSumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 28m 26s.xml">
+      <configuration name="MaxSubSumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 28m 28s.xml">
+      <configuration name="MaxSubSumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 57m 24s.xml">
+      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 58m 41s.xml">
+      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 58m 47s.xml">
+      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 59m 06s.xml">
+      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 59m 19s.xml">
+      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8382000" />
+    <option name="totallyTimeSpent" value="9186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -588,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/MaxSubSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -602,6 +618,30 @@
           <folding>
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/BinarySearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
