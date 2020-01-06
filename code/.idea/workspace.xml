@@ -22,18 +22,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KMaxTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter1/section1/KMaxTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KMax.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter1/section1/KMax.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/BinarySearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -91,6 +79,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gcd.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/Gcd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -146,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter2/section4/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/BinarySearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter2/section4/Gcd.java" />
       </list>
     </option>
   </component>
@@ -258,16 +256,6 @@
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="chapter2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-              <item name="section4" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -294,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTest.testSearch">
+  <component name="RunManager" selected="JUnit.GcdTest.testGcd">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -311,6 +299,29 @@
       <option name="PACKAGE_NAME" value="book.chapter2.section4" />
       <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.BinarySearchTest" />
       <option name="METHOD_NAME" value="testSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GcdTest.testGcd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter2.section4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.GcdTest" />
+      <option name="METHOD_NAME" value="testGcd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -357,29 +368,6 @@
       <option name="PACKAGE_NAME" value="book.chapter2.section4" />
       <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.MaxSubSumTest" />
       <option name="METHOD_NAME" value="testMaxSubSum1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MaxSubSumTest.testMaxSubSum2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter2.section4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.MaxSubSumTest" />
-      <option name="METHOD_NAME" value="testMaxSubSum2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -453,18 +441,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum1" />
-      <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum2" />
       <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum3" />
       <item itemvalue="JUnit.MaxSubSumTest" />
       <item itemvalue="JUnit.BinarySearchTest.testSearch" />
+      <item itemvalue="JUnit.GcdTest.testGcd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GcdTest.testGcd" />
         <item itemvalue="JUnit.BinarySearchTest.testSearch" />
         <item itemvalue="JUnit.MaxSubSumTest" />
         <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum1" />
         <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum3" />
-        <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum2" />
       </list>
     </recent_temporary>
   </component>
@@ -478,14 +466,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="9186000" />
+      <workItem from="1578134240270" duration="9448000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 15s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 16s.xml">
       <configuration name="MaxSubSumTest" configurationId="JUnit" />
     </history-entry>
@@ -513,9 +498,12 @@
     <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 59m 19s.xml">
       <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 59m 31s.xml">
+      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9186000" />
+    <option name="totallyTimeSpent" value="9448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -530,12 +518,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30183357" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30183357" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32863188" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32863188" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -643,6 +631,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/Gcd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
