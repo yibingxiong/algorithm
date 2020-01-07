@@ -1,6 +1,8 @@
 package book.chapter3.section3;
 
-public class MyArrayList<T> {
+import java.util.Iterator;
+
+public class MyArrayList<T> implements Iterable<T> {
     private static final int DEFAULT_CAPATICITY = 10;
     private int size = 0;
     private T[] data;
@@ -41,7 +43,7 @@ public class MyArrayList<T> {
 
     public void ensureCapacity(int newCapacity) {
         T[] newData = (T[]) new Object[newCapacity];
-        int newSize = size<newCapacity?size:newCapacity;
+        int newSize = size < newCapacity ? size : newCapacity;
         for (int i = 0; i < newSize; i++) {
             newData[i] = data[i];
         }
@@ -72,7 +74,7 @@ public class MyArrayList<T> {
 
     public T remove(int i) {
         T v = data[i];
-        for (int k = i; k < size-1; k++) {
+        for (int k = i; k < size - 1; k++) {
             data[k] = data[k + 1];
         }
         size--;
@@ -80,6 +82,27 @@ public class MyArrayList<T> {
     }
 
     public T remove() {
-        return remove(size-1);
+        return remove(size - 1);
+    }
+
+    public Iterator<T> iterator() {
+        return new MyArrayListIterator();
+    }
+
+    private class MyArrayListIterator implements Iterator<T> {
+
+        private int curIndex = 0;
+
+        public boolean hasNext() {
+            return curIndex < size();
+        }
+
+        public T next() {
+            return data[curIndex++];
+        }
+
+        public void remove() {
+            MyArrayList.this.remove(--curIndex);
+        }
     }
 }

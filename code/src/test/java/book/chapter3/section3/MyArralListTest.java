@@ -4,8 +4,11 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Iterator;
+
 public class MyArralListTest {
     private MyArrayList<Integer> arrayList = null;
+
     @Test
     @Before
     public void cons() {
@@ -30,16 +33,26 @@ public class MyArralListTest {
         arrayList.add(0, 12);
         Assert.assertEquals(12, arrayList.get(0).intValue());
         arrayList.add(13);
-        Assert.assertEquals(13, arrayList.get(arrayList.size()-1).intValue());
+        Assert.assertEquals(13, arrayList.get(arrayList.size() - 1).intValue());
         arrayList.add(15);
-        Assert.assertEquals(15, arrayList.get(arrayList.size()-1).intValue());
+        Assert.assertEquals(15, arrayList.get(arrayList.size() - 1).intValue());
 
         int size = arrayList.size();
         int a = arrayList.remove(0);
         Assert.assertEquals(12, a);
-        Assert.assertEquals(size-1,arrayList.size());
+        Assert.assertEquals(size - 1, arrayList.size());
         int b = arrayList.remove();
         Assert.assertEquals(15, b);
-        Assert.assertEquals(size-2,arrayList.size());
+        Assert.assertEquals(size - 2, arrayList.size());
+
+        arrayList = new MyArrayList<Integer>();
+        arrayList.add(1);
+        arrayList.add(2);
+
+        Iterator<Integer> it = arrayList.iterator();
+
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
     }
 }
