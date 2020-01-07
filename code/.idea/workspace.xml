@@ -13,24 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KMax.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter1/section1/KMax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Code1_6.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter1/exercise/Code1_6.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,11 +65,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gcd.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gcd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/Gcd.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GcdTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/GcdTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding>
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyArralListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,15 +123,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -144,6 +158,9 @@
         <option value="$PROJECT_DIR$/src/main/java/book/chapter2/section4/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter2/section4/Gcd.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/GcdTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java" />
       </list>
     </option>
   </component>
@@ -214,7 +231,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -223,8 +240,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-              <item name="section4" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="section3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +271,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="section3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,32 +309,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GcdTest.testGcd">
+  <component name="RunManager" selected="JUnit.MyArralListTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BinarySearchTest.testSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter2.section4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.BinarySearchTest" />
-      <option name="METHOD_NAME" value="testSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="GcdTest.testGcd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
@@ -332,18 +336,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaxSubSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArralListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.chapter2.section4.*" />
+          <option name="PATTERN" value="book.chapter3.section3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.MaxSubSumTest" />
+      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -355,19 +359,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaxSubSumTest.testMaxSubSum1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArralListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.chapter2.section4.*" />
+          <option name="PATTERN" value="book.chapter3.section3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.MaxSubSumTest" />
-      <option name="METHOD_NAME" value="testMaxSubSum1" />
+      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
+      <option name="METHOD_NAME" value="add" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -378,19 +382,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaxSubSumTest.testMaxSubSum3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyArralListTest.cons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.chapter2.section4.*" />
+          <option name="PATTERN" value="book.chapter3.section3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.MaxSubSumTest" />
-      <option name="METHOD_NAME" value="testMaxSubSum3" />
+      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
+      <option name="METHOD_NAME" value="cons" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MyArralListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter3.section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -440,19 +467,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum1" />
-      <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum3" />
-      <item itemvalue="JUnit.MaxSubSumTest" />
-      <item itemvalue="JUnit.BinarySearchTest.testSearch" />
       <item itemvalue="JUnit.GcdTest.testGcd" />
+      <item itemvalue="JUnit.MyArralListTest.cons" />
+      <item itemvalue="JUnit.MyArralListTest.add" />
+      <item itemvalue="JUnit.MyArralListTest.test" />
+      <item itemvalue="JUnit.MyArralListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyArralListTest" />
+        <item itemvalue="JUnit.MyArralListTest.test" />
+        <item itemvalue="JUnit.MyArralListTest.add" />
+        <item itemvalue="JUnit.MyArralListTest.cons" />
         <item itemvalue="JUnit.GcdTest.testGcd" />
-        <item itemvalue="JUnit.BinarySearchTest.testSearch" />
-        <item itemvalue="JUnit.MaxSubSumTest" />
-        <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum1" />
-        <item itemvalue="JUnit.MaxSubSumTest.testMaxSubSum3" />
       </list>
     </recent_temporary>
   </component>
@@ -466,44 +493,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="9448000" />
+      <workItem from="1578134240270" duration="12768000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 18m 16s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
+    <history-entry file="MyArralListTest_add - 2020.01.07 at 09h 15m 44s.xml">
+      <configuration name="MyArralListTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 28m 21s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
+    <history-entry file="MyArralListTest_add - 2020.01.07 at 09h 17m 42s.xml">
+      <configuration name="MyArralListTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 28m 26s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
+    <history-entry file="MyArralListTest_add - 2020.01.07 at 09h 17m 48s.xml">
+      <configuration name="MyArralListTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxSubSumTest - 2020.01.04 at 23h 28m 28s.xml">
-      <configuration name="MaxSubSumTest" configurationId="JUnit" />
+    <history-entry file="MyArralListTest_add - 2020.01.07 at 09h 18m 16s.xml">
+      <configuration name="MyArralListTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 57m 24s.xml">
-      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    <history-entry file="MyArralListTest_add - 2020.01.07 at 09h 27m 39s.xml">
+      <configuration name="MyArralListTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 58m 41s.xml">
-      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    <history-entry file="MyArralListTest_test - 2020.01.07 at 09h 27m 51s.xml">
+      <configuration name="MyArralListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 58m 47s.xml">
-      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    <history-entry file="MyArralListTest_test - 2020.01.07 at 09h 27m 54s.xml">
+      <configuration name="MyArralListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 59m 06s.xml">
-      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    <history-entry file="MyArralListTest - 2020.01.07 at 09h 27m 59s.xml">
+      <configuration name="MyArralListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 59m 19s.xml">
-      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    <history-entry file="MyArralListTest - 2020.01.07 at 09h 29m 51s.xml">
+      <configuration name="MyArralListTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testSearch - 2020.01.06 at 21h 59m 31s.xml">
-      <configuration name="BinarySearchTest.testSearch" configurationId="JUnit" />
+    <history-entry file="MyArralListTest - 2020.01.07 at 09h 30m 24s.xml">
+      <configuration name="MyArralListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9448000" />
+    <option name="totallyTimeSpent" value="12768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -518,12 +545,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30183357" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30183357" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32863188" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32863188" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -547,7 +574,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -638,6 +679,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/GcdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
