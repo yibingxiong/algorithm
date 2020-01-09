@@ -2,6 +2,8 @@ package book.chapter3.section3;
 
 import org.junit.Test;
 
+import java.util.Iterator;
+
 public class MyLinkedListTest {
 
     private void printList(MyLinkedList<Integer> linkedList) {
@@ -22,5 +24,11 @@ public class MyLinkedListTest {
 //        System.out.println(linkedList.size());
 
         printList(linkedList);
+
+        Iterator<Integer> it = linkedList.iterator();
+
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
     }
 }

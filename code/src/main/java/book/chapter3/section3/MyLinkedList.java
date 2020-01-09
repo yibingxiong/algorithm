@@ -2,7 +2,13 @@ package book.chapter3.section3;
 
 import com.sun.tools.corba.se.idl.constExpr.Not;
 
-public class MyLinkedList<T> {
+import java.util.Iterator;
+
+public class MyLinkedList<T> implements Iterable<T>{
+
+    public Iterator<T> iterator() {
+        return new MyLinkedListIterator();
+    }
 
     private class Node<T> {
         public T value;
@@ -101,6 +107,27 @@ public class MyLinkedList<T> {
             }
         }
         return p;
+    }
+
+
+
+
+    private class MyLinkedListIterator implements Iterator<T> {
+
+        private Node<T> cur = head.next;
+        public boolean hasNext() {
+            return cur!= tail;
+        }
+
+        public T next() {
+            T t = cur.value;
+            cur = cur.next;
+            return t;
+        }
+
+        public void remove() {
+
+        }
     }
 
     private int theSize;
