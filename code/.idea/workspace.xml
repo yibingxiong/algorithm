@@ -13,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MaxSubSumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,8 +58,8 @@
       <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
+            <state>
+              <caret line="29" column="15" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="15" />
               <folding>
                 <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
@@ -76,6 +67,7 @@
                 <element signature="e#707#708#0" expanded="true" />
                 <element signature="e#827#828#0" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#1863#1864#0" expanded="true" />
                 <element signature="e#1890#1891#0" expanded="true" />
                 <element signature="e#1994#1995#0" expanded="true" />
                 <element signature="e#2030#2031#0" expanded="true" />
@@ -103,16 +95,50 @@
       <file leaf-file-name="MyLinkedListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="368">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+              <folding>
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyStackTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="48" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="12" selection-end-column="48" />
+              <folding>
+                <element signature="e#166#175#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="-862">
               <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -162,8 +188,10 @@
         <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/GcdTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyStackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java" />
       </list>
     </option>
   </component>
@@ -313,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyLinkedListTest.test">
+  <component name="RunManager" selected="JUnit.MyStackTest.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -353,29 +381,6 @@
       <option name="PACKAGE_NAME" value="book.chapter3.section3" />
       <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
       <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyArralListTest.cons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter3.section3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
-      <option name="METHOD_NAME" value="cons" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -432,6 +437,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="MyStackTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter3.section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyStackTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -471,19 +499,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyArralListTest.cons" />
       <item itemvalue="JUnit.MyArralListTest.add" />
       <item itemvalue="JUnit.MyArralListTest.test" />
       <item itemvalue="JUnit.MyArralListTest" />
       <item itemvalue="JUnit.MyLinkedListTest.test" />
+      <item itemvalue="JUnit.MyStackTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyStackTest.test" />
         <item itemvalue="JUnit.MyLinkedListTest.test" />
         <item itemvalue="JUnit.MyArralListTest" />
         <item itemvalue="JUnit.MyArralListTest.test" />
         <item itemvalue="JUnit.MyArralListTest.add" />
-        <item itemvalue="JUnit.MyArralListTest.cons" />
       </list>
     </recent_temporary>
   </component>
@@ -497,44 +525,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="28098000" />
+      <workItem from="1578134240270" duration="29617000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 44m 08s.xml">
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 59m 38s.xml">
       <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 45m 48s.xml">
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 59m 44s.xml">
       <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 45m 56s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 19m 08s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 46m 05s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 19m 22s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 48m 32s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 19m 54s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 48m 48s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 20m 06s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 48m 56s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 20m 31s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 49m 02s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 21m 15s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 49m 15s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 21m 45s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 49m 28s.xml">
-      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
+    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 22m 08s.xml">
+      <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28098000" />
+    <option name="totallyTimeSpent" value="29617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -551,17 +579,17 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3596615" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.04654443" />
+      <window_info anchor="bottom" id="Terminal" weight="0.325811" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4471086" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4471086" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -611,8 +639,20 @@
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="63" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -742,17 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="87" column="35" lean-forward="true" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
+        <state>
+          <caret line="29" column="15" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="15" />
           <folding>
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
@@ -760,6 +793,7 @@
             <element signature="e#707#708#0" expanded="true" />
             <element signature="e#827#828#0" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
             <element signature="e#1890#1891#0" expanded="true" />
             <element signature="e#1994#1995#0" expanded="true" />
             <element signature="e#2030#2031#0" expanded="true" />
@@ -773,7 +807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="-862">
           <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -781,6 +815,43 @@
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#2352#2353#0" expanded="true" />
             <element signature="e#2388#2389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="e#166#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
