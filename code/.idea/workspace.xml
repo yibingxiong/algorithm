@@ -13,28 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Code1_6.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter1/exercise/Code1_6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxSubSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/MaxSubSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
-              <folding>
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaxSubSumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="124">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="e#353#354#0" expanded="true" />
                 <element signature="e#376#377#0" expanded="true" />
@@ -114,11 +92,29 @@
       <file leaf-file-name="MyArralListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+            <state relative-caret-position="247">
+              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLinkedListTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -133,6 +129,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -157,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/test/java/book/chapter2/section4/GcdTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java" />
       </list>
     </option>
   </component>
@@ -223,42 +224,58 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+              <item name="section3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
               <item name="section3" type="462c0819:PsiDirectoryNode" />
@@ -290,32 +307,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyArralListTest">
+  <component name="RunManager" selected="JUnit.MyLinkedListTest.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="GcdTest.testGcd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter2.section4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter2.section4" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter2.section4.GcdTest" />
-      <option name="METHOD_NAME" value="testGcd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="MyArralListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
@@ -409,6 +403,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="MyLinkedListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter3.section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -448,19 +465,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.GcdTest.testGcd" />
       <item itemvalue="JUnit.MyArralListTest.cons" />
       <item itemvalue="JUnit.MyArralListTest.add" />
       <item itemvalue="JUnit.MyArralListTest.test" />
       <item itemvalue="JUnit.MyArralListTest" />
+      <item itemvalue="JUnit.MyLinkedListTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLinkedListTest.test" />
         <item itemvalue="JUnit.MyArralListTest" />
         <item itemvalue="JUnit.MyArralListTest.test" />
         <item itemvalue="JUnit.MyArralListTest.add" />
         <item itemvalue="JUnit.MyArralListTest.cons" />
-        <item itemvalue="JUnit.GcdTest.testGcd" />
       </list>
     </recent_temporary>
   </component>
@@ -474,44 +491,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="14357000" />
+      <workItem from="1578134240270" duration="27631000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyArralListTest - 2020.01.07 at 09h 27m 59s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 44m 08s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest - 2020.01.07 at 09h 29m 51s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 45m 48s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest - 2020.01.07 at 09h 30m 24s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 45m 56s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest - 2020.01.07 at 09h 33m 11s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 46m 05s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest_test - 2020.01.07 at 09h 33m 21s.xml">
-      <configuration name="MyArralListTest.test" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 48m 32s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest_test - 2020.01.07 at 09h 34m 01s.xml">
-      <configuration name="MyArralListTest.test" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 48m 48s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest - 2020.01.07 at 09h 35m 03s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 48m 56s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest - 2020.01.07 at 09h 35m 10s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 49m 02s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest - 2020.01.07 at 09h 35m 24s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 49m 15s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyArralListTest - 2020.01.07 at 22h 44m 19s.xml">
-      <configuration name="MyArralListTest" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_test - 2020.01.09 at 22h 49m 28s.xml">
+      <configuration name="MyLinkedListTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14357000" />
+    <option name="totallyTimeSpent" value="27631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -526,7 +543,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30183357" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3596615" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.32863188" />
       <window_info id="Capture Tool" />
@@ -538,7 +555,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4471086" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -550,12 +567,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="EXTERNAL /Users/bear/mygithub/algorithm">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="60" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -659,16 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/book/chapter3/section3/MyArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-658">
@@ -678,10 +719,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="124">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#376#377#0" expanded="true" />
@@ -698,6 +746,30 @@
             <element signature="e#2182#2183#0" expanded="true" />
             <element signature="e#2230#2231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
         </state>
       </provider>
     </entry>
