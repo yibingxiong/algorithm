@@ -13,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyLinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,15 +69,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MidExpression2PostfixExpression.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MidExpression2PostfixExpression.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MidExpression2PostfixExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
                 <element signature="e#218#226#0" expanded="true" />
                 <element signature="e#304#321#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+              <folding>
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyQueueTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#165#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -108,22 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-862">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#2352#2353#0" expanded="true" />
-                <element signature="e#2388#2389#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -175,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MidExpression2PostfixExpressionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MidExpression2PostfixExpression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyQueueTest.java" />
       </list>
     </option>
   </component>
@@ -324,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MidExpression2PostfixExpressionTest.test">
+  <component name="RunManager" selected="JUnit.MyQueueTest.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -374,7 +384,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyLinkedListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyQueueTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -385,7 +395,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="book.chapter3.section3" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyQueueTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -482,19 +492,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyLinkedListTest.test" />
       <item itemvalue="JUnit.MyStackTest.test" />
       <item itemvalue="JUnit.BalanceSymbolsTest.test" />
       <item itemvalue="JUnit.PostfixExpressionCalculateTest.test" />
       <item itemvalue="JUnit.MidExpression2PostfixExpressionTest.test" />
+      <item itemvalue="JUnit.MyQueueTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyQueueTest.test" />
         <item itemvalue="JUnit.MidExpression2PostfixExpressionTest.test" />
         <item itemvalue="JUnit.PostfixExpressionCalculateTest.test" />
         <item itemvalue="JUnit.BalanceSymbolsTest.test" />
         <item itemvalue="JUnit.MyStackTest.test" />
-        <item itemvalue="JUnit.MyLinkedListTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -508,44 +518,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="34919000" />
+      <workItem from="1578134240270" duration="36640000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostfixExpressionCalculateTest_test - 2020.01.10 at 08h 55m 00s.xml">
-      <configuration name="PostfixExpressionCalculateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PostfixExpressionCalculateTest_test - 2020.01.10 at 08h 56m 15s.xml">
-      <configuration name="PostfixExpressionCalculateTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 08m 07s.xml">
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 17m 07s.xml">
       <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 09m 01s.xml">
-      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 03m 24s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 12m 44s.xml">
-      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 03m 36s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 14m 19s.xml">
-      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 03m 57s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 14m 58s.xml">
-      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 04m 30s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 16m 26s.xml">
-      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 04m 53s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 16m 29s.xml">
-      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 05m 34s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 16m 32s.xml">
-      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 05m 50s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 06m 23s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyQueueTest_test - 2020.01.10 at 23h 06m 32s.xml">
+      <configuration name="MyQueueTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34919000" />
+    <option name="totallyTimeSpent" value="36640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -753,29 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="29" column="15" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2148#2149#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2230#2231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-862">
@@ -874,11 +861,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MidExpression2PostfixExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
             <element signature="e#218#226#0" expanded="true" />
             <element signature="e#304#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#165#174#0" expanded="true" />
           </folding>
         </state>
       </provider>
