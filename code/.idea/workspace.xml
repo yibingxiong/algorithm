@@ -13,27 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gcd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter2/section4/Gcd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GcdTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter2/section4/GcdTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,7 +107,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BalanceSymbolsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BalanceSymbolsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/BalanceSymbolsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -136,6 +115,27 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostfixExpressionCalculate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="e#202#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostfixExpressionCalculateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -199,6 +199,8 @@
         <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/BalanceSymbols.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/BalanceSymbolsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java" />
       </list>
     </option>
   </component>
@@ -348,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BalanceSymbolsTest.test">
+  <component name="RunManager" selected="JUnit.PostfixExpressionCalculateTest.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -389,29 +391,6 @@
       <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyArralListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter3.section3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -467,6 +446,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="PostfixExpressionCalculateTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter3.section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter3.section3" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.PostfixExpressionCalculateTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -506,19 +508,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyArralListTest.test" />
       <item itemvalue="JUnit.MyArralListTest" />
       <item itemvalue="JUnit.MyLinkedListTest.test" />
       <item itemvalue="JUnit.MyStackTest.test" />
       <item itemvalue="JUnit.BalanceSymbolsTest.test" />
+      <item itemvalue="JUnit.PostfixExpressionCalculateTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PostfixExpressionCalculateTest.test" />
         <item itemvalue="JUnit.BalanceSymbolsTest.test" />
         <item itemvalue="JUnit.MyStackTest.test" />
         <item itemvalue="JUnit.MyLinkedListTest.test" />
         <item itemvalue="JUnit.MyArralListTest" />
-        <item itemvalue="JUnit.MyArralListTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -532,17 +534,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="30724000" />
+      <workItem from="1578134240270" duration="32109000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 24m 12s.xml">
-      <configuration name="MyStackTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 24m 50s.xml">
-      <configuration name="MyStackTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyStackTest_test - 2020.01.09 at 23h 25m 01s.xml">
       <configuration name="MyStackTest.test" configurationId="JUnit" />
     </history-entry>
@@ -567,12 +563,19 @@
     <history-entry file="BalanceSymbolsTest_test - 2020.01.10 at 08h 32m 34s.xml">
       <configuration name="BalanceSymbolsTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PostfixExpressionCalculateTest_test - 2020.01.10 at 08h 55m 00s.xml">
+      <configuration name="PostfixExpressionCalculateTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PostfixExpressionCalculateTest_test - 2020.01.10 at 08h 56m 15s.xml">
+      <configuration name="PostfixExpressionCalculateTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30724000" />
+    <option name="totallyTimeSpent" value="32109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -585,10 +588,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3596615" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.325811" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.325811" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -881,6 +884,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#202#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
