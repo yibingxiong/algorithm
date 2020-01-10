@@ -13,43 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="29" column="15" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="15" />
-              <folding>
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#707#708#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
-                <element signature="e#1994#1995#0" expanded="true" />
-                <element signature="e#2030#2031#0" expanded="true" />
-                <element signature="e#2103#2104#0" expanded="true" />
-                <element signature="e#2148#2149#0" expanded="true" />
-                <element signature="e#2182#2183#0" expanded="true" />
-                <element signature="e#2230#2231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyArralListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyLinkedListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,8 +28,8 @@
       <file leaf-file-name="MyStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+            <state relative-caret-position="675">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#200#201#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
@@ -74,7 +37,6 @@
                 <element signature="e#369#370#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
                 <element signature="e#857#858#0" expanded="true" />
               </folding>
             </state>
@@ -119,23 +81,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostfixExpressionCalculate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java">
+      <file leaf-file-name="MidExpression2PostfixExpression.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MidExpression2PostfixExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="321">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
-                <element signature="e#202#210#0" expanded="true" />
+                <element signature="e#218#226#0" expanded="true" />
+                <element signature="e#304#321#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostfixExpressionCalculateTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MidExpression2PostfixExpressionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MidExpression2PostfixExpressionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostfixExpressionCalculateTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -201,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/BalanceSymbolsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MidExpression2PostfixExpressionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MidExpression2PostfixExpression.java" />
       </list>
     </option>
   </component>
@@ -350,7 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PostfixExpressionCalculateTest.test">
+  <component name="RunManager" selected="JUnit.MidExpression2PostfixExpressionTest.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -377,7 +351,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyArralListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MidExpression2PostfixExpressionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -388,9 +362,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="book.chapter3.section3" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MyArralListTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter3.section3.MidExpression2PostfixExpressionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -508,19 +482,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyArralListTest" />
       <item itemvalue="JUnit.MyLinkedListTest.test" />
       <item itemvalue="JUnit.MyStackTest.test" />
       <item itemvalue="JUnit.BalanceSymbolsTest.test" />
       <item itemvalue="JUnit.PostfixExpressionCalculateTest.test" />
+      <item itemvalue="JUnit.MidExpression2PostfixExpressionTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MidExpression2PostfixExpressionTest.test" />
         <item itemvalue="JUnit.PostfixExpressionCalculateTest.test" />
         <item itemvalue="JUnit.BalanceSymbolsTest.test" />
         <item itemvalue="JUnit.MyStackTest.test" />
         <item itemvalue="JUnit.MyLinkedListTest.test" />
-        <item itemvalue="JUnit.MyArralListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -534,44 +508,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="32109000" />
+      <workItem from="1578134240270" duration="34919000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 25m 01s.xml">
-      <configuration name="MyStackTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyStackTest_test - 2020.01.09 at 23h 25m 24s.xml">
-      <configuration name="MyStackTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BalanceSymbolsTest_test - 2020.01.10 at 08h 30m 29s.xml">
-      <configuration name="BalanceSymbolsTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BalanceSymbolsTest_test - 2020.01.10 at 08h 30m 55s.xml">
-      <configuration name="BalanceSymbolsTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BalanceSymbolsTest_test - 2020.01.10 at 08h 31m 37s.xml">
-      <configuration name="BalanceSymbolsTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BalanceSymbolsTest_test - 2020.01.10 at 08h 32m 00s.xml">
-      <configuration name="BalanceSymbolsTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BalanceSymbolsTest_test - 2020.01.10 at 08h 32m 17s.xml">
-      <configuration name="BalanceSymbolsTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BalanceSymbolsTest_test - 2020.01.10 at 08h 32m 34s.xml">
-      <configuration name="BalanceSymbolsTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PostfixExpressionCalculateTest_test - 2020.01.10 at 08h 55m 00s.xml">
       <configuration name="PostfixExpressionCalculateTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PostfixExpressionCalculateTest_test - 2020.01.10 at 08h 56m 15s.xml">
       <configuration name="PostfixExpressionCalculateTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 08m 07s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 09m 01s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 12m 44s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 14m 19s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 14m 58s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 16m 26s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 16m 29s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MidExpression2PostfixExpressionTest_test - 2020.01.10 at 22h 16m 32s.xml">
+      <configuration name="MidExpression2PostfixExpressionTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32109000" />
+    <option name="totallyTimeSpent" value="34919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="829" extended-state="6" />
@@ -586,12 +560,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3596615" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3596615" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.325811" />
+      <window_info anchor="bottom" id="Terminal" weight="0.325811" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -648,20 +622,8 @@
           <properties />
           <option name="timeStamp" value="59" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="66" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -838,29 +800,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyStackTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#166#175#0" expanded="true" />
+            <element signature="e#202#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MidExpression2PostfixExpressionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/BalanceSymbolsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
           <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,30 +846,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/BalanceSymbolsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#166#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#202#210#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter3/section3/MidExpression2PostfixExpression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="321">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="e#218#226#0" expanded="true" />
+            <element signature="e#304#321#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
