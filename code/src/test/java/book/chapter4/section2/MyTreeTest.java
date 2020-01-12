@@ -1,5 +1,7 @@
 package book.chapter4.section2;
 
+import book.chapter4.Node;
+import book.chapter4.utils.TreeUtils;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,6 +26,8 @@ public class MyTreeTest {
         root.right.left.left = new Node('*');
         root.right.left.left.left = new Node('d');
         root.right.left.left.right = new Node('e');
+
+        TreeUtils.printTree(root);
     }
 
     @Test
@@ -39,10 +43,9 @@ public class MyTreeTest {
     }
 
     @Test
-    public void  postfixExpressiont2TreeTest() {
+    public void  postfixExpression2TreeTest() {
         MyTree<String> myTree = new MyTree<String>();
         Node<String> node = myTree.postfixExpressiont2Tree("a b c * + d e * f + g * + ");
         myTree.postTraverse(node);
-
     }
 }
