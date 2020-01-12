@@ -37,4 +37,12 @@ public class MyTreeTest {
         System.out.println();
         myTree.midTraverse(root);
     }
+
+    @Test
+    public void  postfixExpressiont2TreeTest() {
+        MyTree<String> myTree = new MyTree<String>();
+        Node<String> node = myTree.postfixExpressiont2Tree("a b c * + d e * f + g * + ");
+        myTree.postTraverse(node);
+
+    }
 }
