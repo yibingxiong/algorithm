@@ -92,14 +92,26 @@ public class AvlTree<T extends Comparable<? super T>> {
             t.left = remove(x, t.left);
         } else if (res > 0) {
             t.right = remove(x, t.right);
+        } else if (t.left != null && t.right != null) {
+            t.data = findMin(t.right).data;
+            t.right = remove(t.data, t.right);
         } else {
             t = (t.left != null) ? t.left : t.right;
+
         }
         return balance(t);
     }
 
     public void remove(T x) {
         head = remove(x, head);
+    }
+
+    public AvlNode<T> findMin(AvlNode<T> root) {
+        AvlNode<T> n = root;
+        while (n.left != null) {
+            n = n.left;
+        }
+        return n;
     }
 
 }
