@@ -74,7 +74,11 @@ public class SeprateChainingHashTable<T> {
     }
 
     private static int nextPrime(int n) {
-        return 0;
+        int k = n;
+        while (!isPrime(k)) {
+            k++;
+        }
+        return k;
     }
 
     private static boolean isPrime(int n) {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java" line="79" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java" line="83" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="319aa480-2779-42fc-afc5-4d83ba9a5323" name="Default" comment="" />
@@ -112,17 +112,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeprateChainingHashTable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeprateChainingHashTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+            <state relative-caret-position="205">
+              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#284#285#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuadraticProbingHashTable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section4/QuadraticProbingHashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+              <folding>
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/test/java/book/chapter4/section4/AvlNodeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter4/section4/AvlTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter5/section4/QuadraticProbingHashTable.java" />
       </list>
     </option>
   </component>
@@ -281,7 +301,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="chapter5" type="462c0819:PsiDirectoryNode" />
-              <item name="section3" type="462c0819:PsiDirectoryNode" />
+              <item name="section4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -520,7 +540,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="69058000" />
+      <workItem from="1578134240270" duration="71236000" />
     </task>
     <servers />
   </component>
@@ -557,7 +577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69058000" />
+    <option name="totallyTimeSpent" value="71236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1050,14 +1070,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        <state relative-caret-position="205">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section4/QuadraticProbingHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
           </folding>
         </state>
       </provider>
