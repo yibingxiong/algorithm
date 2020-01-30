@@ -16,156 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TreeUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/utils/TreeUtils.java">
+      <file leaf-file-name="LeftistHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="401">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTreeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter4/section3/BinarySearchTreeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#241#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/section3/BinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="69" column="20" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="69" selection-end-column="20" />
-              <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#2040#2041#0" expanded="true" />
-                <element signature="e#2070#2071#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AvlNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/AvlNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeprateChainingHashTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuadraticProbingHashTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section4/QuadraticProbingHashTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="102" column="4" selection-start-line="102" selection-start-column="4" selection-end-line="119" selection-end-column="5" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#1138#1139#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CuckooHashTable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section7/CuckooHashTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryHeap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter6/section3/BinaryHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="60" column="103" selection-start-line="60" selection-start-column="103" selection-end-line="60" selection-end-column="103" />
-              <folding>
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashFamily.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section7/HashFamily.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AvlNodeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter4/section4/AvlNodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#182#191#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,6 +52,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>System</find>
+      <find>buildHeap</find>
       <find>remove</find>
     </findStrings>
     <replaceStrings>
@@ -237,6 +106,7 @@
         <option value="$PROJECT_DIR$/src/main/java/book/chapter5/section7/HashFamily.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter5/section7/CuckooHashTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter6/section3/BinaryHeap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java" />
       </list>
     </option>
   </component>
@@ -316,7 +186,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="chapter6" type="462c0819:PsiDirectoryNode" />
-              <item name="section3" type="462c0819:PsiDirectoryNode" />
+              <item name="section6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -555,7 +425,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="78658000" />
+      <workItem from="1578134240270" duration="82649000" />
     </task>
     <servers />
   </component>
@@ -592,7 +462,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78658000" />
+    <option name="totallyTimeSpent" value="82649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -992,27 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/utils/TreeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter4/section3/BinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1024,25 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="381" selection-start-line="381" selection-end-line="381" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/section3/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="69" column="20" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="69" selection-end-column="20" />
-          <folding>
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#2040#2041#0" expanded="true" />
-            <element signature="e#2070#2071#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,33 +902,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/AvlNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section7/HashFamily.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section7/CuckooHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter6/section3/BinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,37 +959,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section7/CuckooHashTable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="205">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="59" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter6/section3/BinaryHeap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/AvlNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="60" column="103" selection-start-line="60" selection-start-column="103" selection-end-line="60" selection-end-column="103" />
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/section3/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2070#2071#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter4/section3/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter4/utils/TreeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
             <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
           </folding>
         </state>
       </provider>

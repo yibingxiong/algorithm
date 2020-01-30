@@ -58,7 +58,7 @@ public class BinaryHeap<T extends Comparable<? super T>> {
         T tmp = array[pos];
 
         for (; pos * 2 <= currentSize; pos = child) {
-            if (child != currentSize && array[child + 1].compareTo(array[child]) < 0) { // 找到儿子节点中较小的那个
+            if (child != currentSize && array[child + 1].compareTo(array[child]) < 0) { // 找到儿子节点中较小的
                 child++;
             }
             if (array[child].compareTo(tmp) < 0) {
@@ -71,7 +71,9 @@ public class BinaryHeap<T extends Comparable<? super T>> {
     }
 
     private void buildHeap() {
-
+        for (int i = currentSize; i > 0; i--) {
+            percolateDown(i);
+        }
     }
 
     private void enlargeArray(int size) {
