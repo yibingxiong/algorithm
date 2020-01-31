@@ -33,4 +33,12 @@ public class MySortTest {
         mySort.heapSort(arr);
         MySortTest.printArr(arr);
     }
+
+    @Test
+    public void testMergeSort() {
+        Integer[] arr = {1, 3, 4, 1, 5, 8, 0, 5, 9};
+        MySort<Integer> mySort = new MySort<Integer>();
+        mySort.mergeSort(arr);
+        MySortTest.printArr(arr);
+    }
 }

@@ -42,8 +42,8 @@
       <file leaf-file-name="MySort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+            <state relative-caret-position="226">
+              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -130,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/book/chapter5/section7/CuckooHashTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter6/section3/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java" />
         <option value="$PROJECT_DIR$/src/test/java/book/chapter7/MySortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java" />
       </list>
     </option>
   </component>
@@ -251,29 +251,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="AvlNodeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter4.section4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter4.section4" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter4.section4.AvlNodeTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="MySortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
@@ -333,6 +310,29 @@
       <option name="PACKAGE_NAME" value="book.chapter7" />
       <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
       <option name="METHOD_NAME" value="testInsertSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MySortTest.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter7" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
+      <option name="METHOD_NAME" value="testMergeSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -405,19 +405,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AvlNodeTest.test1" />
       <item itemvalue="JUnit.MySortTest.testInsertSort" />
       <item itemvalue="JUnit.MySortTest.testShellSort" />
       <item itemvalue="JUnit.MySortTest" />
       <item itemvalue="JUnit.MySortTest.testHeapSort" />
+      <item itemvalue="JUnit.MySortTest.testMergeSort" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MySortTest" />
+        <item itemvalue="JUnit.MySortTest.testMergeSort" />
         <item itemvalue="JUnit.MySortTest.testHeapSort" />
         <item itemvalue="JUnit.MySortTest.testShellSort" />
         <item itemvalue="JUnit.MySortTest.testInsertSort" />
-        <item itemvalue="JUnit.AvlNodeTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +431,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="86643000" />
+      <workItem from="1578134240270" duration="89352000" />
     </task>
     <servers />
   </component>
@@ -468,7 +468,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86643000" />
+    <option name="totallyTimeSpent" value="89352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -483,12 +483,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32044888" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32044888" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.2244389" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2244389" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1063,8 +1063,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        <state relative-caret-position="226">
+          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
         </state>
       </provider>
     </entry>
