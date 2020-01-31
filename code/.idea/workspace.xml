@@ -16,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LeftistHeap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeftistHeap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="725">
               <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
@@ -34,6 +34,29 @@
                 <element signature="e#789#790#0" expanded="true" />
                 <element signature="e#1152#1153#0" expanded="true" />
                 <element signature="e#1178#1179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter7/MySortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+              <folding>
+                <element signature="e#205#214#0" expanded="true" />
+                <element signature="e#570#579#0" expanded="true" />
+                <element signature="e#846#855#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/book/chapter5/section7/CuckooHashTable.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter6/section3/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/book/chapter7/MySortTest.java" />
       </list>
     </option>
   </component>
@@ -173,25 +198,6 @@
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
-              <item name="section6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AvlNodeTest.test1">
+  <component name="RunManager" selected="JUnit.MySortTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -268,41 +274,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="BinarySearchTreeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MySortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.chapter4.section3.*" />
+          <option name="PATTERN" value="book.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter4.section3" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter4.section3.BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter4.section2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter4.section2" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter4.section2.MyTreeTest" />
+      <option name="PACKAGE_NAME" value="book.chapter7" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -314,19 +297,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyTreeTest.postfixExpression2TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MySortTest.testHeapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.chapter4.section2.*" />
+          <option name="PATTERN" value="book.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter4.section2" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter4.section2.MyTreeTest" />
-      <option name="METHOD_NAME" value="postfixExpression2TreeTest" />
+      <option name="PACKAGE_NAME" value="book.chapter7" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
+      <option name="METHOD_NAME" value="testHeapSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,19 +320,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MyTreeTest.postfixExpressiont2TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MySortTest.testInsertSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="book.chapter4.section2.*" />
+          <option name="PATTERN" value="book.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter4.section2" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter4.section2.MyTreeTest" />
-      <option name="METHOD_NAME" value="postfixExpressiont2TreeTest" />
+      <option name="PACKAGE_NAME" value="book.chapter7" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
+      <option name="METHOD_NAME" value="testInsertSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MySortTest.testShellSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter7" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
+      <option name="METHOD_NAME" value="testShellSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -399,19 +405,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyTreeTest.postfixExpressiont2TreeTest" />
-      <item itemvalue="JUnit.MyTreeTest.postfixExpression2TreeTest" />
-      <item itemvalue="JUnit.MyTreeTest" />
-      <item itemvalue="JUnit.BinarySearchTreeTest.test" />
       <item itemvalue="JUnit.AvlNodeTest.test1" />
+      <item itemvalue="JUnit.MySortTest.testInsertSort" />
+      <item itemvalue="JUnit.MySortTest.testShellSort" />
+      <item itemvalue="JUnit.MySortTest" />
+      <item itemvalue="JUnit.MySortTest.testHeapSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MySortTest" />
+        <item itemvalue="JUnit.MySortTest.testHeapSort" />
+        <item itemvalue="JUnit.MySortTest.testShellSort" />
+        <item itemvalue="JUnit.MySortTest.testInsertSort" />
         <item itemvalue="JUnit.AvlNodeTest.test1" />
-        <item itemvalue="JUnit.BinarySearchTreeTest.test" />
-        <item itemvalue="JUnit.MyTreeTest" />
-        <item itemvalue="JUnit.MyTreeTest.postfixExpression2TreeTest" />
-        <item itemvalue="JUnit.MyTreeTest.postfixExpressiont2TreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -425,44 +431,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="82649000" />
+      <workItem from="1578134240270" duration="86643000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 34m 52s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 30s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 35m 03s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 38s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 35m 17s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 44s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 35m 31s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 59s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 36m 04s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 53m 42s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 36m 17s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 53m 52s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 37m 27s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 54m 02s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 50m 58s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 15h 55m 00s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 54m 26s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest_testHeapSort - 2020.01.31 at 17h 45m 21s.xml">
+      <configuration name="MySortTest.testHeapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AvlNodeTest_test1 - 2020.01.24 at 19h 55m 01s.xml">
-      <configuration name="AvlNodeTest.test1" configurationId="JUnit" />
+    <history-entry file="MySortTest - 2020.01.31 at 17h 45m 30s.xml">
+      <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82649000" />
+    <option name="totallyTimeSpent" value="86643000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -477,9 +483,9 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32044888" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32044888" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2244389" />
+      <window_info anchor="bottom" id="Terminal" weight="0.2244389" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -1024,7 +1030,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="725">
           <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
@@ -1040,6 +1046,25 @@
             <element signature="e#1152#1153#0" expanded="true" />
             <element signature="e#1178#1179#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter7/MySortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="e#205#214#0" expanded="true" />
+            <element signature="e#570#579#0" expanded="true" />
+            <element signature="e#846#855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
         </state>
       </provider>
     </entry>
