@@ -41,4 +41,12 @@ public class MySortTest {
         mySort.mergeSort(arr);
         MySortTest.printArr(arr);
     }
+
+    @Test
+    public void testQuickSort() {
+        Integer[] arr = {1, 3, 4, 1, 5, 8, 0, 5, 9};
+        MySort<Integer> mySort = new MySort<Integer>();
+        mySort.quickSort(arr);
+        MySortTest.printArr(arr);
+    }
 }

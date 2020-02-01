@@ -42,8 +42,8 @@
       <file leaf-file-name="MySort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+            <state relative-caret-position="240">
+              <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
             </state>
           </provider>
         </entry>
@@ -51,12 +51,14 @@
       <file leaf-file-name="MySortTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter7/MySortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="345">
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
               <folding>
                 <element signature="e#205#214#0" expanded="true" />
                 <element signature="e#570#579#0" expanded="true" />
                 <element signature="e#846#855#0" expanded="true" />
+                <element signature="e#1068#1077#0" expanded="true" />
+                <element signature="e#1293#1302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -297,29 +299,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MySortTest.testInsertSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book.chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="book.chapter7" />
-      <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
-      <option name="METHOD_NAME" value="testInsertSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="MySortTest.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code" />
       <extension name="coverage">
@@ -333,6 +312,29 @@
       <option name="PACKAGE_NAME" value="book.chapter7" />
       <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
       <option name="METHOD_NAME" value="testMergeSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MySortTest.testQuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="book.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="book.chapter7" />
+      <option name="MAIN_CLASS_NAME" value="book.chapter7.MySortTest" />
+      <option name="METHOD_NAME" value="testQuickSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -405,19 +407,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MySortTest.testInsertSort" />
       <item itemvalue="JUnit.MySortTest.testShellSort" />
       <item itemvalue="JUnit.MySortTest" />
       <item itemvalue="JUnit.MySortTest.testHeapSort" />
       <item itemvalue="JUnit.MySortTest.testMergeSort" />
+      <item itemvalue="JUnit.MySortTest.testQuickSort" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MySortTest" />
+        <item itemvalue="JUnit.MySortTest.testQuickSort" />
         <item itemvalue="JUnit.MySortTest.testMergeSort" />
         <item itemvalue="JUnit.MySortTest.testHeapSort" />
         <item itemvalue="JUnit.MySortTest.testShellSort" />
-        <item itemvalue="JUnit.MySortTest.testInsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -431,44 +433,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578134235577</updated>
-      <workItem from="1578134240270" duration="89352000" />
+      <workItem from="1578134240270" duration="91037000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 30s.xml">
+    <history-entry file="MySortTest_testMergeSort - 2020.01.31 at 19h 06m 35s.xml">
+      <configuration name="MySortTest.testMergeSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MySortTest - 2020.01.31 at 19h 06m 43s.xml">
       <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 38s.xml">
+    <history-entry file="MySortTest - 2020.01.31 at 19h 06m 48s.xml">
       <configuration name="MySortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 44s.xml">
-      <configuration name="MySortTest" configurationId="JUnit" />
+    <history-entry file="MySortTest_testQuickSort - 2020.02.01 at 14h 36m 59s.xml">
+      <configuration name="MySortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 15h 52m 59s.xml">
-      <configuration name="MySortTest" configurationId="JUnit" />
+    <history-entry file="MySortTest_testQuickSort - 2020.02.01 at 14h 37m 32s.xml">
+      <configuration name="MySortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 15h 53m 42s.xml">
-      <configuration name="MySortTest" configurationId="JUnit" />
+    <history-entry file="MySortTest_testQuickSort - 2020.02.01 at 14h 38m 04s.xml">
+      <configuration name="MySortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 15h 53m 52s.xml">
-      <configuration name="MySortTest" configurationId="JUnit" />
+    <history-entry file="MySortTest_testQuickSort - 2020.02.01 at 14h 42m 27s.xml">
+      <configuration name="MySortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 15h 54m 02s.xml">
-      <configuration name="MySortTest" configurationId="JUnit" />
+    <history-entry file="MySortTest_testQuickSort - 2020.02.01 at 14h 43m 26s.xml">
+      <configuration name="MySortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 15h 55m 00s.xml">
-      <configuration name="MySortTest" configurationId="JUnit" />
+    <history-entry file="MySortTest_testQuickSort - 2020.02.01 at 14h 43m 42s.xml">
+      <configuration name="MySortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySortTest_testHeapSort - 2020.01.31 at 17h 45m 21s.xml">
-      <configuration name="MySortTest.testHeapSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySortTest - 2020.01.31 at 17h 45m 30s.xml">
-      <configuration name="MySortTest" configurationId="JUnit" />
+    <history-entry file="MySortTest_testQuickSort - 2020.02.01 at 14h 44m 32s.xml">
+      <configuration name="MySortTest.testQuickSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89352000" />
+    <option name="totallyTimeSpent" value="91037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -483,9 +485,9 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32044888" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32044888" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2244389" />
+      <window_info anchor="bottom" id="Terminal" weight="0.2244389" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -1051,20 +1053,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/book/chapter7/MySortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
           <folding>
             <element signature="e#205#214#0" expanded="true" />
             <element signature="e#570#579#0" expanded="true" />
             <element signature="e#846#855#0" expanded="true" />
+            <element signature="e#1068#1077#0" expanded="true" />
+            <element signature="e#1293#1302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
         </state>
       </provider>
     </entry>

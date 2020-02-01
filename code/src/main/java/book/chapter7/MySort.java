@@ -2,12 +2,29 @@ package book.chapter7;
 
 public class MySort<T extends Comparable<? super T>> {
 
+    private static final int CUTOFF = 17;
+
     // 插入排序
     public void insertSort(T[] arr) {
         if (arr == null || arr.length == 1) {
             return;
         }
         for (int i = 1; i < arr.length; i++) {
+            int j = i;
+            T tmp = arr[i];
+            while (j > 0 && tmp.compareTo(arr[j - 1]) < 0) {
+                arr[j] = arr[j - 1];
+                j--;
+            }
+            arr[j] = tmp;
+        }
+    }
+
+    private void insertSort(T[] arr, int left, int right) {
+        if (arr == null || arr.length == 1) {
+            return;
+        }
+        for (int i = left + 1; i <= right; i++) {
             int j = i;
             T tmp = arr[i];
             while (j > 0 && tmp.compareTo(arr[j - 1]) < 0) {
@@ -106,4 +123,71 @@ public class MySort<T extends Comparable<? super T>> {
             arr[rightEnd] = tmpArray[rightEnd];
         }
     }
+
+
+    private T median3(T[] arr, int left, int right) {
+        int mid = left + (right - left) / 2;
+        if (arr[mid].compareTo(arr[left]) < 0) {
+            T tmp = arr[left];
+            arr[left] = arr[mid];
+            arr[mid] = tmp;
+        }
+        if (arr[right].compareTo(arr[left]) < 0) {
+            T tmp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = tmp;
+        }
+
+        if (arr[right].compareTo(arr[mid]) < 0) {
+            T tmp = arr[mid];
+            arr[mid] = arr[right];
+            arr[right] = tmp;
+        }
+
+        T tmp = arr[mid];
+        arr[mid] = arr[right - 1];
+        arr[right - 1] = tmp;
+        return arr[right - 1];
+    }
+
+    private void quickSort(T[] arr, int left, int right) {
+        if (left + CUTOFF <= right) {
+            System.out.println("right" + right);
+            T pivot = median3(arr, left, right);
+            int i = left;
+            int j = right - 1;
+            for (; ; ) {
+                while (i < right && arr[i++].compareTo(pivot) < 0) {
+
+                }
+                while (j > left && arr[--j].compareTo(pivot) > 0) {
+
+                }
+                if (i < j) {
+                    T tmp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = tmp;
+                } else {
+                    break;
+                }
+            }
+
+            T tmp = arr[i];
+            arr[i] = arr[right - 1];
+            arr[right - 1] = tmp;
+            quickSort(arr, left, i - 1);
+            quickSort(arr, i + 1, right);
+        } else {
+            insertSort(arr, left, right);
+        }
+
+    }
+
+    public void quickSort(T[] arr) {
+        if (arr == null || arr.length == 1) {
+            return;
+        }
+        quickSort(arr, 0, arr.length - 1);
+    }
+
 }
