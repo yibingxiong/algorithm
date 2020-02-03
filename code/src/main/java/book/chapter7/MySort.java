@@ -152,11 +152,10 @@ public class MySort<T extends Comparable<? super T>> {
 
     private void quickSort(T[] arr, int left, int right) {
         if (left + CUTOFF <= right) {
-            System.out.println("right" + right);
             T pivot = median3(arr, left, right);
             int i = left;
             int j = right - 1;
-            for (; ; ) {
+            while (true) {
                 while (i < right && arr[i++].compareTo(pivot) < 0) {
 
                 }
@@ -171,10 +170,11 @@ public class MySort<T extends Comparable<? super T>> {
                     break;
                 }
             }
-
+            // 将分割点放到正确的位置
             T tmp = arr[i];
             arr[i] = arr[right - 1];
             arr[right - 1] = tmp;
+
             quickSort(arr, left, i - 1);
             quickSort(arr, i + 1, right);
         } else {
