@@ -1,6 +1,5 @@
-package leetcode.stack;
+package leetcode;
 
-import java.util.PriorityQueue;
 import java.util.Stack;
 
 public class Code00042 {
