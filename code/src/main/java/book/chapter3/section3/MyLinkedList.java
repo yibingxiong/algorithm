@@ -1,7 +1,5 @@
 package book.chapter3.section3;
 
-import com.sun.tools.corba.se.idl.constExpr.Not;
-
 import java.util.Iterator;
 
 public class MyLinkedList<T> implements Iterable<T>{

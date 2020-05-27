@@ -1,6 +1,5 @@
 package book.chapter1.exercise;
 
-import com.sun.tools.javac.jvm.Code;
 import org.junit.Test;
 
 public class Code1_6Test {
