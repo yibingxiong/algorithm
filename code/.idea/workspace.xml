@@ -4,14 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java" line="83" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="319aa480-2779-42fc-afc5-4d83ba9a5323" name="Default" comment="矩阵相乘">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="319aa480-2779-42fc-afc5-4d83ba9a5323" name="Default" comment="矩阵相乘-备忘录法">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/topic/dynamic/MatrixMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/topic/dynamic/MatrixMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter1/exercise/Code1_6Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/book/chapter1/exercise/Code1_6Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/topic/dynamic/MatrixMultiplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+            <state relative-caret-position="176">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -328,7 +323,7 @@
       <updated>1578134235577</updated>
       <workItem from="1578134240270" duration="93779000" />
       <workItem from="1580654280671" duration="20142000" />
-      <workItem from="1590537702571" duration="12676000" />
+      <workItem from="1590537702571" duration="18890000" />
     </task>
     <task id="LOCAL-00001" summary="矩阵相乘">
       <created>1590542301465</created>
@@ -337,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590542301465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="矩阵相乘">
+      <created>1590593792082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590593792082</updated>
+    </task>
+    <task id="LOCAL-00003" summary="矩阵相乘-备忘录法">
+      <created>1590622618972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590622618972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -373,10 +382,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126597000" />
+    <option name="totallyTimeSpent" value="132811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1536" height="864" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -388,16 +398,16 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23767383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5562579" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32294264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32996207" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.2642225" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.42225033" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.06573957" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932975" weight="0.42225033" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.42225033" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.5259166" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32917705" />
       <window_info anchor="right" id="LuaJ" />
       <window_info anchor="right" id="Translate" />
@@ -439,6 +449,26 @@
             </State>
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="RECENT_FILTERS">
@@ -458,7 +488,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="矩阵相乘" />
-    <option name="LAST_COMMIT_MESSAGE" value="矩阵相乘" />
+    <MESSAGE value="矩阵相乘-备忘录法" />
+    <option name="LAST_COMMIT_MESSAGE" value="矩阵相乘-备忘录法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,8 +881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/topic/dynamic/MatrixMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+        <state relative-caret-position="176">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>

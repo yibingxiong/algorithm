@@ -1,7 +1,5 @@
 package topic.dynamic;
 
-import com.sun.javaws.exceptions.ErrorCodeResponseException;
-
 import java.util.Random;
 
 /**
