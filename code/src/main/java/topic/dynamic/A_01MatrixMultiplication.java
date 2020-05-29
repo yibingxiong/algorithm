@@ -9,7 +9,7 @@ import java.util.Random;
  * 所以这n个矩阵可以用一个包含n+1个元素的数组p表示，例如p={1,2,3} 表示2个矩阵相乘
  * 矩阵1 1*2  矩阵2 2*3
  */
-public class MatrixMultiplication {
+public class A_01MatrixMultiplication {
     // 20200527
     private static int cal1(int[] p) {
         if (p.length < 2) {
