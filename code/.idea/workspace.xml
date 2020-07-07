@@ -2,172 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECORDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/digui/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/digui/Jiechen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../笔记/目录.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../笔记/递归与分治策略.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../题目.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid91156.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter1/exercise/Code1_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter1/section1/KMax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter2/section4/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter2/section4/Gcd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter2/section4/MaxSubSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/BalanceSymbols.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MidExpression2PostfixExpression.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyArrayList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/MyStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter3/section3/PostfixExpressionCalculate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter4/AvlNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter4/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter4/section2/MyTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter4/section3/BinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter4/section4/AvlTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter4/utils/TreeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter5/section3/SeprateChainingHashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter5/section4/QuadraticProbingHashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter5/section7/CuckooHashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter5/section7/HashFamily.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter6/section3/BinaryHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter6/section6/LeftistHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter7/MySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter8/DisjSets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/book/chapter8/DisjSizeSets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Code00020.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Code00042.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Code00071.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Code00084.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Code01221.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/topic/dynamic/A_01MatrixMultiplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/topic/dynamic/A_02Lcs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter1/exercise/Code1_6Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter1/section1/KMaxTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter2/section4/BinarySearchTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter2/section4/GcdTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter2/section4/MaxSubSumTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter3/section3/BalanceSymbolsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MidExpression2PostfixExpressionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyArralListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyLinkedListTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyQueueTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter3/section3/MyStackTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter3/section3/PostfixExpressionCalculateTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter4/section2/MyTreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter4/section3/BinarySearchTreeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter4/section4/AvlNodeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/book/chapter7/MySortTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter1/1.0.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter1/1.0.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter1/1.0.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter1/1.0.4-dijikstra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter1/1.3.1-FixedCapacityStackStrings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter1/1.3.2-linkStack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter1/1.3.3-linkQueue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/2.1-selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/2.2-insert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/2.3-shell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/2.4-merge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/2.5-quick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/2.6-MaxPQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/2.8-heap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/chapter2/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/mergeSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/Code023_mergeKLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1/InsertSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/BinarySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/HeapSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/InsertSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter1_test/Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/CopyListWithRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/GetListCrossedNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/HastSetAndTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/IsLoop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/IsPalindromeList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/ListPartition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/PrintCommonPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter4/ReverseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter5/Bfs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter5/BinaryTreeTraverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter5/IsBalanceTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter5/IsBst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter5/IsCompleteTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter5/LowestCommonAncestor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter5/Serialize.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Code01_BFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Code02_DFS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Code03_TopologySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Code04_Kruskal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Code05_Prim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Code06_Dijkstra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Edge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/GraphGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/chapter6/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code001_TwoSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code002_AddTwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code003_LengthOfLongestSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code004_FindMedianSortedArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code005_LongestPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code007_Reverse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code009_IsPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code014_LongestCommonPrefix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code017_removeElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code020_isValid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code021_MergeTwoLists.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code026_removeDuplicates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code028_strStr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code035_searchInsert.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code066_plusOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code083_deleteDuplicates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code1021_removeOuterParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code1047_removeDuplicates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code141_hasCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code155_MinStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code160_getIntersectionNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code202_isHappy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code203_removeElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code225_MyStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code232_MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code234_isPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code496_nextGreaterElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code682_calPoints.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code704_search.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code844_backspaceCompare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code933_RecentCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoder/src/leetcode/Code_053maxSubArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/nowcoderjs/class2/heapSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/practice/class2/alSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/practice/class2/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/practice/class2/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/practice/fibonacci.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/practice/line/line.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/practice/line/sample.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/practice/mergeSort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/笔记/堆.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/笔记/牛客算法基础第1-3课总结.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/笔记/牛客算法基础第4课-链表总结.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/笔记/牛客算法基础第5课-二叉树总结.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../历史代码封印/笔记/牛客算法基础第6课-图总结 copy.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -177,18 +24,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="264">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/digui/Jiechen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/digui/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -197,6 +81,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/digui/Jiechen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/digui/Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -206,13 +92,51 @@
     <option name="width" value="1380" />
     <option name="height" value="810" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="digui" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -221,6 +145,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -236,6 +161,40 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.Fibonacci">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.digui.Fibonacci" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiong.digui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jiechen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.digui.Jiechen" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiong.digui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Jiechen" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -246,12 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594085303895</updated>
-      <workItem from="1594085306865" duration="16000" />
+      <workItem from="1594085306865" duration="3044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16000" />
+    <option name="totallyTimeSpent" value="3044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="-7" width="1485" height="878" extended-state="6" />
@@ -267,11 +226,12 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,8 +255,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="264">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/digui/Jiechen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/digui/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
