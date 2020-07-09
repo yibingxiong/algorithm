@@ -1,5 +1,8 @@
 package com.xiong.digui;
 
+/**
+ * 求解全排列问题
+ */
 public class Perm {
     public static void swap(Object[] list, int i, int j) {
         Object tmp = list[i];
