@@ -29,12 +29,99 @@ public class MergeSort {
         }
     }
 
+
+    // 默写一遍归并排序
+
+    public static void mergeSort2(int[] arr, int m, int n) {
+        if (m < n) {
+            int mid = m + (n - m) / 2;
+            mergeSort2(arr, m, mid);
+            mergeSort2(arr, mid + 1, n);
+            merge2(arr, m, n, mid);
+        }
+    }
+
+    public static void merge2(int[] arr, int i, int j, int mid) {
+        int[] tmp = new int[j - i + 1]; // 辅助数组
+
+        int p = i;  // 左边数组访问到的位置
+        int q = mid + 1; // 右边数组访问的位置
+
+        int k = 0;
+        while (p <= mid && q <= j) {
+            if (arr[p] < arr[q]) {
+                tmp[k++] = arr[p++];
+            } else {
+                tmp[k++] = arr[q++];
+            }
+        }
+        while (p <= mid) {
+            tmp[k++] = arr[p++];
+        }
+
+        while (q <= j) {
+            tmp[k++] = arr[q++];
+        }
+        for (k = i; k <= j; k++) {
+            arr[k] = tmp[k - i];
+        }
+    }
+
+
+    public static void mergeSort3(int[] arr, int i, int j) {
+        if (i < j) {
+            int mid = i + (j - i) / 2;
+            mergeSort3(arr, i, mid);
+            mergeSort3(arr, mid + 1, j);
+            merge3(arr, i, j, mid);
+        }
+    }
+
+    public static void merge3(int[] arr, int i, int j, int mid) {
+        int[] tmp = new int[j - i + 1];
+        int p = i;
+        int q = mid + 1;
+        int k = 0;
+        while (p <= mid && q <= j) {
+            if (arr[p] < arr[q]) {
+                tmp[k++] = arr[p++];
+            } else {
+                tmp[k++] = arr[q++];
+            }
+        }
+
+        while (p <= mid) {
+            tmp[k++] = arr[p++];
+        }
+
+        while (q <= j) {
+            tmp[k++] = arr[q++];
+        }
+
+        for (k = i; k <= j; k++) {
+            arr[k] = tmp[k - i];
+        }
+    }
+
     public static void main(String[] args) {
         int arr[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
+
+        int arr2[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
+        int arr3[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
         mergeSort(arr, 0, arr.length - 1);
+        mergeSort2(arr2, 0, arr2.length - 1);
+        mergeSort3(arr3, 0, arr3.length-1);
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + ", ");
+        }
+        System.out.println();
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.print(arr2[i] + ", ");
+        }
+        System.out.println();
+        for (int i = 0; i < arr3.length; i++) {
+            System.out.print(arr3[i] + ", ");
         }
     }
 }
