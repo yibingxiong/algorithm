@@ -29,9 +29,7 @@ public class QuickSort {
             while (arr[i] <= pivot && i < j) {//当low的索引上的值比主元小时，索引小于high时
                 i++;                       //寻找比主元大的值的位置索引。
             }
-            if (i < j) {   //交换low和high的值
-                swap(arr, i, j);
-            }
+            swap(arr, i, j);
         }
 
         arr[left] = arr[j];
@@ -39,11 +37,38 @@ public class QuickSort {
         return j;
     }
 
+    public static void sort2(int[] arr, int i, int j) {
+        if (i < j) {
+            int p = partition2(arr, i, j);
+            sort2(arr, i, p - 1);
+            sort2(arr, p + 1, j);
+        }
+    }
+
+    public static int partition2(int[] arr, int low, int high) {
+        int x = arr[low];
+        int i = low;
+        int j = high;
+        while (i < j) {
+            while (i < j && arr[j] > x) {
+                j--;
+            }
+            while (i < j && arr[i] <= x) {
+                i++;
+            }
+
+            swap(arr, i, j);
+        }
+        arr[low] = arr[j];
+        arr[j] = x;
+        return j;
+    }
+
 
     public static void main(String[] args) {
-        int arr2[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
+        int arr2[] = {1, 6, 5, 5, 4, 2, 3, 5, 7};
 
-        sort(arr2, 0, arr2.length - 1);
+        sort2(arr2, 0, arr2.length - 1);
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i] + ", ");
         }
