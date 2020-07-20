@@ -19,8 +19,6 @@ public class BinarySearch {
     public static int search2(int[] arr, int k) {
         int m = 0;
         int n = arr.length - 1;
-
-
         while (m <= n) {
             int mid = (n + m) / 2;
             if (arr[mid] == k) {

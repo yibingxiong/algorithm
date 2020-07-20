@@ -55,7 +55,7 @@ public class SortUtils {
             int[] cp1 = copy(c);
             int[] cp2 = copy(c);
             long start = System.currentTimeMillis();
-            QuickSort.sort2(cp1, 0, cp1.length - 1);
+            QuickSort.sort3(cp1, 0, cp1.length - 1);
             System.out.println("排序1耗時:" + (System.currentTimeMillis() - start));
             start = System.currentTimeMillis();
             MergeSort.mereSort6(cp2, 0, cp2.length - 1);

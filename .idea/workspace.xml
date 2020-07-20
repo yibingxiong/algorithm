@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/SortUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/SortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/SortUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/题目.md" beforeDir="false" afterPath="$PROJECT_DIR$/题目.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/题目.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <first_editor relative-caret-position="38">
+                <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -47,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="410" />
     <option name="y" value="185" />
     <option name="width" value="1380" />
@@ -149,7 +150,7 @@
       <updated>1594134945594</updated>
       <workItem from="1594134946887" duration="10605000" />
       <workItem from="1594689976687" duration="4718000" />
-      <workItem from="1595000417927" duration="1788000" />
+      <workItem from="1595000417927" duration="4250000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -218,13 +219,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17111000" />
+    <option name="totallyTimeSpent" value="19573000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-7" width="1485" height="878" extended-state="6" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2571829" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25736326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -315,8 +316,8 @@
     <entry file="file://$PROJECT_DIR$/题目.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <first_editor relative-caret-position="38">
+            <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>

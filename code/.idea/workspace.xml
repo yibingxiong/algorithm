@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/SortUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/SortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/SortUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../题目.md" beforeDir="false" afterPath="$PROJECT_DIR$/../题目.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,26 +71,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="238" column="22" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="22" />
+            <state relative-caret-position="242">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="263" column="23" selection-start-line="263" selection-start-column="19" selection-end-line="263" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+            <state relative-caret-position="644">
+              <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/SortUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="66" column="42" lean-forward="true" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+            <state relative-caret-position="424">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
             </state>
           </provider>
         </entry>
@@ -137,9 +139,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/digui/IntegerCut.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/digui/hanno.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/SortUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -236,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortUtils">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.fenzhi.BinarySearch" />
       <module name="code" />
@@ -304,9 +306,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortUtils" />
-        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.SortUtils" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.hanno" />
       </list>
@@ -324,7 +326,7 @@
       <updated>1594085303895</updated>
       <workItem from="1594085306865" duration="14927000" />
       <workItem from="1594689989894" duration="7749000" />
-      <workItem from="1595000418492" duration="8335000" />
+      <workItem from="1595000418492" duration="11908000" />
     </task>
     <task id="LOCAL-00001" summary="递归的两个例子">
       <created>1594137071327</created>
@@ -340,16 +342,24 @@
       <option name="project" value="LOCAL" />
       <updated>1595094314985</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="分治算法-快速排序">
+      <created>1595126983356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595126983356</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31011000" />
+    <option name="totallyTimeSpent" value="34584000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-7" width="1485" height="878" extended-state="6" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18850736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18863955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -358,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51340485" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26541555" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,7 +378,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.4302949" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.46648794" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.5053619" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,31 +447,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="238" column="22" selection-start-line="238" selection-start-column="22" selection-end-line="238" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="242">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/SortUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="66" column="42" lean-forward="true" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        <state relative-caret-position="424">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        <state relative-caret-position="644">
+          <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="263" column="23" selection-start-line="263" selection-start-column="19" selection-end-line="263" selection-end-column="23" />
         </state>
       </provider>
     </entry>
