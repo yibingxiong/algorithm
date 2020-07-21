@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/SortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/SortUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/题目.md" beforeDir="false" afterPath="$PROJECT_DIR$/题目.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="410" />
     <option name="y" value="185" />
     <option name="width" value="1380" />
@@ -150,7 +147,7 @@
       <updated>1594134945594</updated>
       <workItem from="1594134946887" duration="10605000" />
       <workItem from="1594689976687" duration="4718000" />
-      <workItem from="1595000417927" duration="4250000" />
+      <workItem from="1595000417927" duration="4849000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -219,10 +216,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19573000" />
+    <option name="totallyTimeSpent" value="20172000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25736326" />

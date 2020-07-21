@@ -67,8 +67,8 @@ public class QuickSort {
     public static void sort3(int[] arr, int i, int j) {
         if (i < j) {
             int pos = partition3(arr, i, j);
-            sort3(arr, i, pos-1);
-            sort3(arr, pos+1, j);
+            sort3(arr, i, pos - 1);
+            sort3(arr, pos + 1, j);
         }
     }
 
@@ -81,7 +81,7 @@ public class QuickSort {
             while (arr[r] > x && r > l) {
                 r--;
             }
-            while (arr[l] <=x && r>l) {
+            while (arr[l] <= x && r > l) {
                 l++;
             }
             swap(arr, l, r);
@@ -92,10 +92,36 @@ public class QuickSort {
     }
 
 
+    public static void sort4(int[] arr, int i, int j) {
+        if (i < j) {
+            int pos = partition4(arr, i, j);
+            sort4(arr, i, pos - 1);
+            sort4(arr, pos + 1, j);
+        }
+    }
+
+    private static int partition4(int[] arr, int i, int j) {
+        int x = arr[i];
+        int p = i;
+        int q = j;
+        while (p < q) {
+            while (arr[q] >= x && p < q) {
+                q--;
+            }
+            while (arr[p] < x && p < q) {
+                p++;
+            }
+            swap(arr, p, q);
+        }
+        arr[i] = arr[p];
+        arr[p] = x;
+        return p;
+    }
+
     public static void main(String[] args) {
         int arr2[] = {1, 6, 5, 5, 4, 2, 3, 5, 7};
 
-        sort3(arr2, 0, arr2.length - 1);
+        sort4(arr2, 0, arr2.length - 1);
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i] + ", ");
         }

@@ -186,17 +186,17 @@ public class MergeSort {
 
     public static void mereSort6(int[] arr, int i, int j) {
         if (i < j) {
-            int mid = i+ (j-i)/2;
+            int mid = i + (j - i) / 2;
             mereSort6(arr, i, mid);
-            mereSort6(arr, mid+1, j);
+            mereSort6(arr, mid + 1, j);
             merge6(arr, i, j, mid);
         }
     }
 
     public static void merge6(int[] arr, int i, int j, int mid) {
         int[] help = new int[j - i + 1];
-        int  p  = i;
-        int q = mid+1;
+        int p = i;
+        int q = mid + 1;
 
         int k = 0;
         while (p <= mid && q <= j) {
@@ -214,8 +214,8 @@ public class MergeSort {
             help[k++] = arr[q++];
         }
 
-        for (k = i; k <=j; k++) {
-            arr[k] = help[k-i];
+        for (k = i; k <= j; k++) {
+            arr[k] = help[k - i];
         }
     }
 
@@ -230,8 +230,8 @@ public class MergeSort {
 
     private static void merge7(int[] arr, int i, int j, int mid) {
         int l = i;
-        int r = mid+1;
-        int[] tmp = new int[j-i+1];
+        int r = mid + 1;
+        int[] tmp = new int[j - i + 1];
         int k = 0;
         while (l <= mid && r <= j) {
             if (arr[l] <= arr[r]) {
@@ -248,8 +248,44 @@ public class MergeSort {
             tmp[k++] = arr[r++];
         }
 
-        for (k = 0;  k<= j-i; k++) {
-            arr[k+i] = tmp[k];
+        for (k = 0; k <= j - i; k++) {
+            arr[k + i] = tmp[k];
+        }
+    }
+
+
+    public static void mergeSort8(int[] arr, int i, int j) {
+        if (i < j) {
+            int mid = i + (j - i) / 2;
+            mergeSort8(arr, i, mid);
+            mergeSort8(arr, mid + 1, j);
+            merge8(arr, i, j, mid);
+        }
+    }
+
+    private static void merge8(int[] arr, int i, int j, int mid) {
+        int p = i;
+        int q = mid + 1;
+        int[] tmp = new int[j - i + 1];
+        int k = 0;
+        while (p <= mid && q <= j) {
+            if (arr[p] <= arr[q]) {
+                tmp[k++] = arr[p++];
+            } else {
+                tmp[k++] = arr[q++];
+            }
+        }
+
+        while (p <= mid) {
+            tmp[k++] = arr[p++];
+        }
+        while (q <= j) {
+            tmp[k++] = arr[q++];
+        }
+
+        k = 0;
+        while (k <= j - i) {
+            arr[i + k] = tmp[k++];
         }
     }
 
@@ -261,7 +297,7 @@ public class MergeSort {
         int arr3[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
         mergeSort(arr, 0, arr.length - 1);
         mergeSort2(arr2, 0, arr2.length - 1);
-        mergeSort7(arr3, 0, arr3.length - 1);
+        mergeSort8(arr3, 0, arr3.length - 1);
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + ", ");
