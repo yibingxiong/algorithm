@@ -289,6 +289,41 @@ public class MergeSort {
         }
     }
 
+    public static void mergeSort9(int[] arr, int i, int j) {
+        if (i < j) {
+            int mid = i + (j - i) / 2;
+            mergeSort9(arr, i, mid);
+            mergeSort9(arr, mid + 1, j);
+            merge9(arr, i, j, mid);
+        }
+    }
+
+    private static void merge9(int[] arr, int i, int j, int mid) {
+        int[] tmp = new int[j - i + 1];
+        int p = i;
+        int q = mid + 1;
+        int k = 0;
+        while (p <= mid && q <= j) {
+            if (arr[p] <= arr[q]) {
+                tmp[k++] = arr[p++];
+            } else {
+                tmp[k++] = arr[q++];
+            }
+        }
+        while (p <= mid) {
+            tmp[k++] = arr[p++];
+        }
+        while (q <= j) {
+            tmp[k++] = arr[q++];
+        }
+
+        k = 0;
+
+        while (k <= j - i) {
+            arr[i + k] = tmp[k++];
+        }
+    }
+
 
     public static void main(String[] args) {
         int arr[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
@@ -297,7 +332,7 @@ public class MergeSort {
         int arr3[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
         mergeSort(arr, 0, arr.length - 1);
         mergeSort2(arr2, 0, arr2.length - 1);
-        mergeSort8(arr3, 0, arr3.length - 1);
+        mergeSort9(arr3, 0, arr3.length - 1);
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + ", ");

@@ -111,6 +111,7 @@ public class QuickSort {
             while (arr[p] < x && p < q) {
                 p++;
             }
+
             swap(arr, p, q);
         }
         arr[i] = arr[p];
@@ -118,10 +119,69 @@ public class QuickSort {
         return p;
     }
 
+
+    public static void sort5(int[] arr, int i, int j) {
+        if (i < j) {
+            int povit = partition5(arr, i, j);
+            sort5(arr, i, povit - 1);
+            sort5(arr, povit + 1, j);
+        }
+    }
+
+    private static int partition5(int[] arr, int i, int j) {
+        int l = i;
+        int r = j;
+        int x = arr[i];
+
+        while (l < r) {
+            while (arr[r] >= x && l < r) {
+                r--;
+            }
+            while (arr[l] < x && l < r) {
+                l++;
+            }
+            swap(arr, l, r);
+        }
+
+        arr[i] = arr[r];
+        arr[r] = x;
+        return r;
+    }
+
+
+    public static void sort6(int arr[], int i, int j) {
+        if (i < j) {
+            int index = partition6(arr, i, j);
+            sort6(arr, i, index - 1);
+            sort6(arr, index+1, j);
+        }
+    }
+
+    private static int partition6(int[] arr, int i, int j) {
+        int x = arr[i];
+        int tIndex = 0;
+        int left = i;
+        int right = j;
+        while (left < right) {
+            while (arr[right] >= x && left < right) {
+                right--;
+            }
+            while (arr[left] < x && left < right) {
+                left++;
+            }
+
+            swap(arr, left, right);
+        }
+
+        arr[left] = arr[right];
+        arr[right] = x;
+        return right;
+    }
+
     public static void main(String[] args) {
         int arr2[] = {1, 6, 5, 5, 4, 2, 3, 5, 7};
 
-        sort4(arr2, 0, arr2.length - 1);
+        sort6(arr2, 0, arr2.length - 1);
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i] + ", ");
         }
