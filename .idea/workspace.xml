@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/test/java/com/xiong/test/StringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/目录.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/目录.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/递归与分治策略.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/基础算法思想.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="253">
-                <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+                <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -35,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/笔记/基础算法思想.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="539">
-                <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+              <first_editor relative-caret-position="88">
+                <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -60,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="410" />
     <option name="y" value="185" />
     <option name="width" value="1380" />
@@ -121,6 +120,16 @@
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="笔记" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -163,7 +172,7 @@
       <workItem from="1594134946887" duration="10605000" />
       <workItem from="1594689976687" duration="4718000" />
       <workItem from="1595000417927" duration="5452000" />
-      <workItem from="1595857507504" duration="1392000" />
+      <workItem from="1595857507504" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -228,14 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594862421964</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="动态规划的基本思想">
+      <created>1595950218357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595950218357</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22167000" />
+    <option name="totallyTimeSpent" value="22909000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
@@ -256,7 +272,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.12064343" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.09651475" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,7 +299,8 @@
     <MESSAGE value="分治-归并排序" />
     <MESSAGE value="分治-归并排序默写2" />
     <MESSAGE value="分治-归并排序3" />
-    <option name="LAST_COMMIT_MESSAGE" value="分治-归并排序3" />
+    <MESSAGE value="动态规划的基本思想" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划的基本思想" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/笔记/目录.md">
@@ -320,7 +337,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="253">
-            <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -329,8 +346,8 @@
     <entry file="file://$PROJECT_DIR$/笔记/基础算法思想.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="539">
-            <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <first_editor relative-caret-position="88">
+            <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
