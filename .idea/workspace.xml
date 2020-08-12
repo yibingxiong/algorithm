@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/dynamic/MatrixChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/fenzhi/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/基础算法思想.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/基础算法思想.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +34,8 @@
         <entry file="file://$PROJECT_DIR$/笔记/基础算法思想.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="88">
-                <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <first_editor relative-caret-position="579">
+                <caret line="39" selection-start-line="39" selection-end-line="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="410" />
     <option name="y" value="185" />
     <option name="width" value="1380" />
@@ -172,7 +172,7 @@
       <workItem from="1594134946887" duration="10605000" />
       <workItem from="1594689976687" duration="4718000" />
       <workItem from="1595000417927" duration="5452000" />
-      <workItem from="1595857507504" duration="2134000" />
+      <workItem from="1595857507504" duration="4281000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -248,10 +248,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22909000" />
+    <option name="totallyTimeSpent" value="25056000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26086956" />
@@ -346,8 +346,8 @@
     <entry file="file://$PROJECT_DIR$/笔记/基础算法思想.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="88">
-            <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <first_editor relative-caret-position="579">
+            <caret line="39" selection-start-line="39" selection-end-line="39" />
           </first_editor>
           <second_editor />
         </state>

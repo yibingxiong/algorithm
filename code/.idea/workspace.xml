@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MatrixChain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../笔记/基础算法思想.md" beforeDir="false" afterPath="$PROJECT_DIR$/../笔记/基础算法思想.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/digui/Jiechen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/digui/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="208" column="27" lean-forward="true" selection-start-line="208" selection-start-column="27" selection-end-line="208" selection-end-column="28" />
+            <state relative-caret-position="80">
+              <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MatrixChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -140,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/xiong/test/StringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MatrixChain.java" />
       </list>
     </option>
   </component>
@@ -198,28 +199,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiong" type="462c0819:PsiDirectoryNode" />
-              <item name="fenzhi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="digui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,13 +229,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiong.fenzhi.BinarySearch" />
+  <component name="RunManager" selected="Application.MatrixChain">
+    <configuration name="MatrixChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.dynamic.MatrixChain" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiong.fenzhi.*" />
+          <option name="PATTERN" value="com.xiong.dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixChain" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="JUnit.StringTest.test" />
         <item itemvalue="Application.SortUtils" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +321,7 @@
       <workItem from="1594085306865" duration="14927000" />
       <workItem from="1594689989894" duration="7749000" />
       <workItem from="1595000418492" duration="16767000" />
-      <workItem from="1595857507872" duration="7747000" />
+      <workItem from="1595857507872" duration="10811000" />
     </task>
     <task id="LOCAL-00001" summary="递归的两个例子">
       <created>1594137071327</created>
@@ -385,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595859369709</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="分治算法-归并和快速排序写一遍">
+      <created>1597194166783</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597194166783</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -397,13 +384,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47190000" />
+    <option name="totallyTimeSpent" value="50254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1914446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1914446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,7 +399,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04021448" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20911528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +409,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.4302949" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.06568365" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32573727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -522,8 +509,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="208" column="27" lean-forward="true" selection-start-line="208" selection-start-column="27" selection-end-line="208" selection-end-column="28" />
+        <state relative-caret-position="80">
+          <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MatrixChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
