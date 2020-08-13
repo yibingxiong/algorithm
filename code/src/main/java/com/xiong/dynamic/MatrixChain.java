@@ -35,9 +35,36 @@ public class MatrixChain {
         }
     }
 
+
+    private static void cal2(int[] m) {
+        int n = m.length - 1; // 矩阵个数
+        int[][] x = new int[n][n]; // 记录第i个矩阵 到第j个矩阵相乘最少乘的次数
+
+        for (int i = 0; i < n; i++) {
+            x[i][i] = 0;
+        }
+        for (int step = 2; step <= n; step++) {
+            for (int i = 0; i <= n - step; i++) {
+                int min = Integer.MAX_VALUE;
+                int j = i + step - 1;
+
+                for (int k = i; k < j; k++) {
+                    int t = x[i][k] + x[k + 1][j] + m[i] * m[k + 1] * m[j + 1];
+                    if (t < min) {
+                        min = t;
+                    }
+                }
+                x[i][j] = min;
+            }
+        }
+
+        System.out.println(x[0][n - 1]);
+    }
+
     public static void main(String[] args) {
         int[] matrix = {10, 100, 5, 50};
         int[] matrix2 = {30, 35, 15, 5, 10, 20, 25};
         cal(matrix2);
+        cal2(matrix2);
     }
 }
