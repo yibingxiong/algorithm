@@ -64,10 +64,36 @@ public class MatrixChain {
         System.out.println(x[0][n - 1]);
     }
 
+
+    public static void cal3(int[] x) {
+        int n = x.length - 1; // 表示有多少个矩阵相乘
+        int[][] m = new int[n + 1][n + 1];  // 用下标1表示第一个矩阵
+
+        for (int i = 0; i <= n; i++) {
+            m[i][i] = 0;
+        }
+
+        for (int step = 2; step <= n; step++) {
+            for (int left = 1; left <= n - step + 1; left++) {
+                int right = left + step - 1;
+                m[left][right] = Integer.MAX_VALUE;
+                for (int k = left; k < right; k++) {
+                    int t = m[left][k] + m[k + 1][right] + x[left - 1] * x[k] * x[right];
+                    if (t < m[left][right]) {
+                        m[left][right] = t;
+                    }
+                }
+            }
+        }
+
+        System.out.println(m[1][n]);
+    }
+
     public static void main(String[] args) {
         int[] matrix = {10, 100, 5, 50};
         int[] matrix2 = {30, 35, 15, 5, 10, 20, 25};
         cal(matrix2);
         cal2(matrix2);
+        cal3(matrix2);
     }
 }
