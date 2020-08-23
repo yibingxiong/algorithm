@@ -1,5 +1,8 @@
 package com.xiong.dynamic;
 
+/**
+ * 矩阵连乘问题
+ */
 public class MatrixChain {
     public static void cal(int[] matrix) {
         int n = matrix.length - 1; // 一共有这么多矩阵

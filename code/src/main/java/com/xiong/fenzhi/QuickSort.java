@@ -205,10 +205,38 @@ public class QuickSort {
         return q;
     }
 
+    public static void quickSort(int[] data, int i, int j) {
+        if (i < j) {
+            int pos = partition8(data, i, j);
+            quickSort(data, i, pos-1);
+            quickSort(data, pos+ 1, j);
+        }
+    }
+
+    private static int partition8(int[] data, int i, int j) {
+        int index = (int)(Math.random() * (j - i + 1)+i);
+        int x = data[index];
+        int p =i;
+        int q = j;
+
+        while (p < q) {
+            while (q > p && data[q] >= x) {
+                q--;
+            }
+            while (q > p && data[p] < x) {
+                p++;
+            }
+            swap(data, p, q);
+        }
+        data[index] = data[q];
+        data[q] = x;
+        return q;
+    }
+
     public static void main(String[] args) {
         int arr2[] = {1, 6, 5, 5, 4, 2, 3, 5, 7};
 
-        sort7(arr2, 0, arr2.length - 1);
+        quickSort(arr2, 0, arr2.length - 1);
         for (int i = 0; i < arr2.length; i++) {
             System.out.print(arr2[i] + ", ");
         }

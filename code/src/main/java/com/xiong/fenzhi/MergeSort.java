@@ -326,9 +326,9 @@ public class MergeSort {
 
     public static void mergeSort10(int[] arr, int i, int j) {
         if (i < j) {
-            int mid = i + (j-i)/2;
+            int mid = i + (j - i) / 2;
             mergeSort10(arr, i, mid);
-            mergeSort10(arr, mid+1, j);
+            mergeSort10(arr, mid + 1, j);
             merge10(arr, i, j, mid);
         }
     }
@@ -336,7 +336,7 @@ public class MergeSort {
     public static void merge10(int[] arr, int i, int j, int mid) {
         int[] tmp = new int[j - i + 1];
         int p = i;
-        int q= mid+1;
+        int q = mid + 1;
         int k = 0;
         while (p <= mid && q <= j) {
             if (arr[p] < arr[q]) {
@@ -357,7 +357,42 @@ public class MergeSort {
         k = 0;
 
         while (k < tmp.length) {
-            arr[i+k] = tmp[k++];
+            arr[i + k] = tmp[k++];
+        }
+    }
+
+
+    public static void mergeSort11(int[] data, int i, int j) {
+        if (i < j) {
+            int mid = i + (j - i) / 2;
+
+            mergeSort11(data, i, mid);
+            mergeSort11(data, mid + 1, j);
+            merge11(data, i, j, mid);
+        }
+    }
+
+    private static void merge11(int[] data, int i, int j, int mid) {
+        int[] tmp = new int[j - i + 1];
+        int p = i;
+        int q = mid + 1;
+        int m = 0;
+        while (p <= mid && q <= j) {
+            if (data[p] <= data[q]) {
+                tmp[m++] = data[p++];
+            } else {
+                tmp[m++] = data[q++];
+            }
+        }
+        while (p <= mid) {
+            tmp[m++] = data[p++];
+        }
+        while (q <= j) {
+            tmp[m++] = data[q++];
+        }
+        m = 0;
+        for (int k = i; k <= j; k++) {
+            data[k] = tmp[m++];
         }
     }
 
@@ -368,7 +403,7 @@ public class MergeSort {
         int arr3[] = {3, 6, 3, 5, 1, 2, 3, 5, 7};
         mergeSort(arr, 0, arr.length - 1);
         mergeSort2(arr2, 0, arr2.length - 1);
-        mergeSort10(arr3, 0, arr3.length - 1);
+        mergeSort11(arr3, 0, arr3.length - 1);
 
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + ", ");
