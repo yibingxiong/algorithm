@@ -32,6 +32,21 @@ public class BinarySearch {
         return -1;
     }
 
+    public static int search3(int[] arr, int i, int j, int n) {
+        while (i <= j) {
+            int mid = i + (j - i) / 2;
+            if (arr[mid] < n) {
+                i = mid+1;
+            } else if (arr[mid] > n) {
+                j = mid;
+            } else {
+                return mid;
+            }
+        }
+
+        return -1;
+    }
+
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 6, 8, 9, 10};
         int[] arr2 = {1};
@@ -40,7 +55,7 @@ public class BinarySearch {
 //        System.out.println(search(arr, 0, arr.length - 1, 7));
 //        System.out.println(search(arr, 0, arr.length - 1, 1));
 //        System.out.println(search(arr, 0, arr.length - 1, 10));
-        System.out.println(search2(arr2, 1));
+        System.out.println(search3(arr2, 0, arr2.length - 1, 1));
 
     }
 }
