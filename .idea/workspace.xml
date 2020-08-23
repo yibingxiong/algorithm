@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/dynamic/MaxCommonSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/dynamic/MaxCommonSubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记/基础算法思想.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/基础算法思想.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="579">
-                <caret line="39" selection-start-line="39" selection-end-line="39" />
+                <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -174,7 +172,7 @@
       <workItem from="1595000417927" duration="5452000" />
       <workItem from="1595857507504" duration="4880000" />
       <workItem from="1597539782671" duration="13000" />
-      <workItem from="1597539895580" duration="3324000" />
+      <workItem from="1597539895580" duration="3353000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -250,7 +248,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28992000" />
+    <option name="totallyTimeSpent" value="29021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
@@ -349,7 +347,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="579">
-            <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
           </first_editor>
           <second_editor />
         </state>
