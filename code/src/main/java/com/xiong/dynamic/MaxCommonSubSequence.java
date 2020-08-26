@@ -55,9 +55,46 @@ public class MaxCommonSubSequence {
         }
     }
 
+    private static void cal2(String a, String b) {
+        char[] charA = a.toCharArray();
+        char[] charB = b.toCharArray();
+        int lenA = charA.length;
+        int lenB = charB.length;
+        int[][] m = new int[lenA + 1][lenB + 1];
+        for (int i = 0; i <= lenA; i++) {
+            m[i][0] = 0;
+        }
+        for (int i = 0; i <=lenB; i++) {
+            m[0][i] = 0;
+
+        }
+
+        for (int i = 1; i <= lenA; i++) {
+            for (int j = 1; j <= lenB; j++) {
+                char tA = charA[i-1];
+                char tB = charB[j - 1];
+                if (tA == tB) {
+                    m[i][j] = m[i-1][j-1] + 1;
+                } else {
+                    int p = m[i - 1][j];
+                    int q = m[i][j - 1];
+
+                    if (p > q) {
+                        m[i][j] = p;
+                    } else {
+                        m[i][j] = q;
+                    }
+                }
+            }
+        }
+        System.out.println(m[lenA][lenB]);
+    }
+
     public static void main(String[] args) {
         String a = "ace";
         String b = "abce";
         cal1(a, b);
+        System.out.println("---------2---------");
+        cal2(a, b);
     }
 }
