@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/笔记/基础算法思想.md" beforeDir="false" afterPath="$PROJECT_DIR$/笔记/基础算法思想.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +168,7 @@
       <workItem from="1595000417927" duration="5452000" />
       <workItem from="1595857507504" duration="4880000" />
       <workItem from="1597539782671" duration="13000" />
-      <workItem from="1597539895580" duration="3979000" />
+      <workItem from="1597539895580" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -242,7 +244,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29647000" />
+    <option name="totallyTimeSpent" value="30266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/ZeroOneBag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,20 +77,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/ZeroOneBag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="274">
+              <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="73" column="34" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MatrixChain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubSequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/ZeroOneBag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" />
       </list>
     </option>
   </component>
@@ -235,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZeroOneBag">
+  <component name="RunManager" selected="Application.MaxCommonSubString">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.fenzhi.BinarySearch" />
       <module name="code" />
@@ -303,8 +303,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZeroOneBag" />
         <item itemvalue="Application.MaxCommonSubString" />
+        <item itemvalue="Application.ZeroOneBag" />
         <item itemvalue="Application.MaxCommonSubSequence" />
         <item itemvalue="Application.MatrixChain" />
         <item itemvalue="Application.BinarySearch" />
@@ -326,7 +326,7 @@
       <workItem from="1595000418492" duration="16767000" />
       <workItem from="1595857507872" duration="18347000" />
       <workItem from="1597539782671" duration="11000" />
-      <workItem from="1598147358181" duration="16306000" />
+      <workItem from="1598147358181" duration="19854000" />
     </task>
     <task id="LOCAL-00001" summary="递归的两个例子">
       <created>1594137071327</created>
@@ -433,7 +433,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598165342075</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="0-1背包问题-价值和重量都是整数的情况">
+      <created>1598368076571</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598368076571</updated>
+    </task>
+    <task id="LOCAL-00017" summary="0-1背包问题-价值和重量都是整数的情况">
+      <created>1598399840357</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598399840357</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -445,11 +459,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74107000" />
+    <option name="totallyTimeSpent" value="77655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1970547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -460,7 +473,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2855228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59517425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24262735" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,9 +481,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.24396783" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.24396783" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.28686327" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.1300268" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.5080429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -538,7 +551,8 @@
     <MESSAGE value="二分搜索" />
     <MESSAGE value="矩阵相乘" />
     <MESSAGE value="最长公共子串和最长公共子序列的解法" />
-    <option name="LAST_COMMIT_MESSAGE" value="最长公共子串和最长公共子序列的解法" />
+    <MESSAGE value="0-1背包问题-价值和重量都是整数的情况" />
+    <option name="LAST_COMMIT_MESSAGE" value="0-1背包问题-价值和重量都是整数的情况" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -633,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -656,8 +663,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/ZeroOneBag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="274">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="34" />
         </state>
       </provider>
     </entry>
