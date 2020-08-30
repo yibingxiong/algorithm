@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1305.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1305_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code374.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code383.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code390.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../笔记/基础算法思想.md" beforeDir="false" afterPath="$PROJECT_DIR$/../笔记/基础算法思想.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,135 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/dynamic/ZeroOneBag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tanxin/Load.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-              <folding>
-                <element signature="e#511#634#0" expanded="true" />
-                <element signature="e#633#634#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tanxin/HafmanTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-              <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#921#929#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1305.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#539#548#0" expanded="true" />
-                <element signature="e#742#751#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1305_2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-              <folding>
-                <element signature="e#558#567#0" expanded="true" />
-                <element signature="e#618#627#0" expanded="true" />
-                <element signature="e#748#757#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code374.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code390.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="18" column="24" selection-start-line="10" selection-end-line="26" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code383.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="534">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -199,6 +66,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code383.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java" />
       </list>
     </option>
   </component>
@@ -250,6 +118,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiong" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -282,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeTraverse">
+  <component name="RunManager" selected="Application.OperatorTree">
     <configuration name="Code1701" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.leetcode.Code1701" />
       <module name="code" />
@@ -322,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HafmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiong.tanxin.HafmanTree" />
+    <configuration name="OperatorTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.tree.OperatorTree" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiong.tanxin.*" />
+          <option name="PATTERN" value="com.xiong.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperatorTree" />
         <item itemvalue="Application.TreeTraverse" />
         <item itemvalue="Application.Code1701" />
         <item itemvalue="Application.Code383" />
         <item itemvalue="Application.Code390" />
-        <item itemvalue="Application.HafmanTree" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +250,7 @@
       <workItem from="1595000418492" duration="16767000" />
       <workItem from="1595857507872" duration="18347000" />
       <workItem from="1597539782671" duration="11000" />
-      <workItem from="1598147358181" duration="45704000" />
+      <workItem from="1598147358181" duration="47130000" />
     </task>
     <task id="LOCAL-00001" summary="递归的两个例子">
       <created>1594137071327</created>
@@ -522,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598773800031</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="啦啦啦">
+      <created>1598796589003</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598796589003</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -534,13 +418,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103505000" />
+    <option name="totallyTimeSpent" value="104931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.375" visible="true" weight="0.1970547" />
-      <window_info id="Structure" order="1" sideWeight="0.625" side_tool="true" visible="true" weight="0.1970547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84821427" visible="true" weight="0.1970547" />
+      <window_info id="Structure" order="1" sideWeight="0.15178572" side_tool="true" visible="true" weight="0.1970547" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -558,7 +443,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.45040214" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.9463807" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.09919571" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,7 +516,8 @@
     <MESSAGE value="最长公共子序列问题" />
     <MESSAGE value="贪心算法-装载问题" />
     <MESSAGE value="贪心算法-哈夫曼树构造" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心算法-哈夫曼树构造" />
+    <MESSAGE value="啦啦啦" />
+    <option name="LAST_COMMIT_MESSAGE" value="啦啦啦" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -789,18 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1305_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#558#567#0" expanded="true" />
-            <element signature="e#618#627#0" expanded="true" />
-            <element signature="e#748#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code374.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -853,17 +727,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="215">
+          <caret line="335" column="13" selection-start-line="335" selection-start-column="13" selection-end-line="335" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="292">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1305_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#558#567#0" expanded="true" />
+            <element signature="e#618#627#0" expanded="true" />
+            <element signature="e#748#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
         </state>
       </provider>
     </entry>
