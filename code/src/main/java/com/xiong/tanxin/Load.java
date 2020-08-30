@@ -39,11 +39,12 @@ public class Load {
         Iterator<E> iterator = list.iterator();
         while (iterator.hasNext()) {
             E a = iterator.next();
-            System.out.println("选择第"+(a.i+1) + "个");
+            System.out.println("选择第" + (a.i + 1) + "个");
         }
     }
+
     public static void main(String[] args) {
-        int[] a = {1,19,18,3,1};
+        int[] a = {1, 19, 18, 3, 1};
         int c = 20;
 
         cal1(a, c);
