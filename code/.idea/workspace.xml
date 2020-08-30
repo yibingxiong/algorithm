@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/tree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +19,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/BinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -159,7 +187,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OperatorTree">
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.tree.BinarySearchTree" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiong.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code1701" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.leetcode.Code1701" />
       <module name="code" />
@@ -175,19 +216,6 @@
     </configuration>
     <configuration name="Code383" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.leetcode.Code383" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiong.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code390" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiong.leetcode.Code390" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -227,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTree" />
         <item itemvalue="Application.OperatorTree" />
         <item itemvalue="Application.TreeTraverse" />
         <item itemvalue="Application.Code1701" />
         <item itemvalue="Application.Code383" />
-        <item itemvalue="Application.Code390" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +278,7 @@
       <workItem from="1595000418492" duration="16767000" />
       <workItem from="1595857507872" duration="18347000" />
       <workItem from="1597539782671" duration="11000" />
-      <workItem from="1598147358181" duration="47130000" />
+      <workItem from="1598147358181" duration="50413000" />
     </task>
     <task id="LOCAL-00001" summary="递归的两个例子">
       <created>1594137071327</created>
@@ -406,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598796589003</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="基于后缀表达式构建表达式树">
+      <created>1598798263199</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1598798263199</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -418,14 +453,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104931000" />
+    <option name="totallyTimeSpent" value="108214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84821427" visible="true" weight="0.1970547" />
-      <window_info id="Structure" order="1" sideWeight="0.15178572" side_tool="true" visible="true" weight="0.1970547" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8453608" visible="true" weight="0.1970547" />
+      <window_info id="Structure" order="1" sideWeight="0.15463917" side_tool="true" visible="true" weight="0.1970547" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -433,7 +468,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5294906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34986594" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34048256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +478,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.45040214" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.09919571" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.04021448" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -517,7 +552,8 @@
     <MESSAGE value="贪心算法-装载问题" />
     <MESSAGE value="贪心算法-哈夫曼树构造" />
     <MESSAGE value="啦啦啦" />
-    <option name="LAST_COMMIT_MESSAGE" value="啦啦啦" />
+    <MESSAGE value="基于后缀表达式构建表达式树" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于后缀表达式构建表达式树" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -734,13 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
@@ -760,10 +789,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="255">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="78" column="54" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
