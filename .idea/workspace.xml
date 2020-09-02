@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/tree/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/N105_BS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC78_reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC78_reverse_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC93_LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC93_LRU_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC93_LRU_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -123,6 +131,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xiong" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,7 +186,7 @@
       <workItem from="1595000417927" duration="5452000" />
       <workItem from="1595857507504" duration="4880000" />
       <workItem from="1597539782671" duration="13000" />
-      <workItem from="1597539895580" duration="12518000" />
+      <workItem from="1597539895580" duration="14020000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -243,7 +262,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38186000" />
+    <option name="totallyTimeSpent" value="39688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
