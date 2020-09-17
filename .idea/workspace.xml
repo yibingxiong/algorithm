@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/struct/TreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/learn/nowcoder/ch1/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/nowcoder/NC81.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -58,10 +60,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="width" value="934" />
-    <option name="height" value="1088" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="411" />
+    <option name="y" value="185" />
+    <option name="width" value="1380" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,7 +170,7 @@
       <workItem from="1595000417927" duration="5452000" />
       <workItem from="1595857507504" duration="4880000" />
       <workItem from="1597539782671" duration="13000" />
-      <workItem from="1597539895580" duration="16581000" />
+      <workItem from="1597539895580" duration="17202000" />
     </task>
     <task id="LOCAL-00001" summary="递归">
       <created>1594137270689</created>
@@ -243,10 +246,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42249000" />
+    <option name="totallyTimeSpent" value="42870000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2678822" />
