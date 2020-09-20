@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/learn/nowcoder/ch2/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/learn/nowcoder/ch4/DoubleLinkReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/learn/nowcoder/ch4/ReverseLink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -248,6 +249,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2678822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
