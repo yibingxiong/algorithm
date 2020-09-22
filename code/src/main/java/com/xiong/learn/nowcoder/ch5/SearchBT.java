@@ -2,7 +2,10 @@ package com.xiong.learn.nowcoder.ch5;
 
 import java.util.LinkedList;
 
-public class SpecialBT {
+/**
+ * 判断一棵树是否为搜索二叉树
+ */
+public class SearchBT {
     public static class Node {
         public int val;
         public Node left;
