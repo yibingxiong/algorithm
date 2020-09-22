@@ -1,5 +1,6 @@
 package com.xiong.learn.nowcoder.ch5;
 
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class TraverseBT {
@@ -78,7 +79,7 @@ public class TraverseBT {
         }
 
         while (!stack2.isEmpty()) {
-            System.out.print(stack2.pop().val+" ");
+            System.out.print(stack2.pop().val + " ");
         }
     }
 
@@ -99,6 +100,32 @@ public class TraverseBT {
             }
         }
     }
+
+    /**
+     * bfs
+     *
+     * @param node
+     */
+    public static void bfs(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        LinkedList<Node> queue = new LinkedList<>();
+        queue.addLast(node);
+        while (!queue.isEmpty()) {
+            Node node1 = queue.pollFirst();
+            System.out.print(node1.val + " ");
+
+            if (node1.left != null) {
+                queue.addLast(node1.left);
+            }
+            if (node1.right != null) {
+                queue.addLast(node1.right);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Node head = new Node(1);
         head.left = new Node(2);
@@ -125,5 +152,9 @@ public class TraverseBT {
         System.out.println("\n非递归");
         inOrderTraverse2(head);
         System.out.println("\n----------------");
+
+        System.out.println("bfs");
+        System.out.println("递归");
+        bfs(head);
     }
 }
