@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62f771c-9ec3-45b0-b8e0-fa9eb7f24a4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/learn/nowcoder/ch6/MinGenerageGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/main/java/com/xiong/learn/nowcoder/ch7/TrieTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/code/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
