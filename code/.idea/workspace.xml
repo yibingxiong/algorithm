@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/GraphShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/GraphTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/TuopuSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -23,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch5/CompleteBT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="54" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch5/BalanceBT.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,14 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/GraphTraverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="388">
+              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/TuopuSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -137,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/fenzhi/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MatrixChain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/ZeroOneBag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/dynamic/MaxCommonSubString.java" />
@@ -188,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/Edge.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/GraphShow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/GraphTraverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/TuopuSort.java" />
       </list>
     </option>
   </component>
@@ -248,6 +241,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiong" type="462c0819:PsiDirectoryNode" />
               <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,7 +376,7 @@
       <workItem from="1595000418492" duration="16767000" />
       <workItem from="1595857507872" duration="18347000" />
       <workItem from="1597539782671" duration="11000" />
-      <workItem from="1598147358181" duration="130300000" />
+      <workItem from="1598147358181" duration="131922000" />
     </task>
     <task id="LOCAL-00001" summary="递归的两个例子">
       <created>1594137071327</created>
@@ -669,7 +672,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601110945677</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="bfs">
+      <created>1601113471620</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1601113471620</updated>
+    </task>
+    <task id="LOCAL-00044" summary="dfs">
+      <created>1601114275276</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1601114275276</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -681,12 +698,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188101000" />
+    <option name="totallyTimeSpent" value="189723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84774435" visible="true" weight="0.1970547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84774435" visible="true" weight="0.1970547" />
       <window_info id="Structure" order="1" sideWeight="0.15225564" side_tool="true" weight="0.1970547" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -695,7 +713,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4463807" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51206434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5241287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -705,7 +723,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.07372654" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.3605898" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.04021448" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -763,7 +781,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="矩阵相乘" />
     <MESSAGE value="最长公共子串和最长公共子序列的解法" />
     <MESSAGE value="0-1背包问题-价值和重量都是整数的情况" />
     <MESSAGE value="最长公共子串问题" />
@@ -781,14 +798,15 @@
     <MESSAGE value="单链表和双链表的反转" />
     <MESSAGE value="用一种奇妙的方法解决回文问题" />
     <MESSAGE value="二叉树的六种遍历方式" />
-    <MESSAGE value="bfs" />
     <MESSAGE value="是否为搜索二叉树的判断" />
     <MESSAGE value="判断一棵树是否为完全二叉树" />
     <MESSAGE value="判断一颗二叉树是否满的两种方法" />
     <MESSAGE value="判断一颗二叉树是否为平衡二叉树" />
     <MESSAGE value="寻找最小公共祖先" />
     <MESSAGE value="树的序列化与反序列化" />
-    <option name="LAST_COMMIT_MESSAGE" value="树的序列化与反序列化" />
+    <MESSAGE value="bfs" />
+    <MESSAGE value="dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -803,17 +821,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code374.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1305.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1246,11 +1253,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/GraphTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="388">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/TuopuSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
