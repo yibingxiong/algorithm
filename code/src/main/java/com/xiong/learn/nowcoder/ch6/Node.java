@@ -7,7 +7,7 @@ public class Node {
     public int in;
     public int out;
     public ArrayList<Node> nexts;
-    public ArrayList<Node> edges;
+    public ArrayList<Edge> edges;
 
     public Node(int val) {
         this.val = val;
