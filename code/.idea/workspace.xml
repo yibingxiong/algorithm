@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/Hannuota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/TuopuSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/MinGenerageGraph.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,15 +115,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="35" />
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding>
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -161,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code390.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code383.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java" />
@@ -212,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/MaxProfit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/Hannuota.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java" />
       </list>
     </option>
   </component>
@@ -319,7 +319,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AllSubSeq">
+  <component name="RunManager" selected="Application.AllRank">
+    <configuration name="AllRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch8.AllRank" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiong.learn.nowcoder.ch8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AllSubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch8.AllSubSeq" />
       <module name="code" />
@@ -372,26 +385,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrieTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch7.TrieTree" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiong.learn.nowcoder.ch7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AllRank" />
         <item itemvalue="Application.AllSubSeq" />
         <item itemvalue="Application.Hannuota" />
         <item itemvalue="Application.CutGold" />
         <item itemvalue="Application.StrConcat" />
-        <item itemvalue="Application.TrieTree" />
       </list>
     </recent_temporary>
   </component>
@@ -410,14 +410,7 @@
       <workItem from="1595000418492" duration="16767000" />
       <workItem from="1595857507872" duration="18347000" />
       <workItem from="1597539782671" duration="11000" />
-      <workItem from="1598147358181" duration="151997000" />
-    </task>
-    <task id="LOCAL-00003" summary="分治算法-快速排序">
-      <created>1595126983356</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1595126983356</updated>
+      <workItem from="1598147358181" duration="153840000" />
     </task>
     <task id="LOCAL-00004" summary="分治算法-归并和快速排序写一遍">
       <created>1595256667966</created>
@@ -755,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601305730411</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="子序列和汉诺塔问题">
+      <created>1601394990467</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1601394990467</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -767,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209798000" />
+    <option name="totallyTimeSpent" value="211641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
@@ -781,7 +781,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51340485" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3538874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5241287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -791,7 +791,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.43163538" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.46246648" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.730563" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -849,7 +849,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="基于后缀表达式构建表达式树" />
     <MESSAGE value="二叉搜索树的实现" />
     <MESSAGE value="做题" />
     <MESSAGE value="二叉树的深度和广度遍历" />
@@ -874,7 +873,8 @@
     <MESSAGE value="黄金分割问题" />
     <MESSAGE value="会议安排问题" />
     <MESSAGE value="最大收益问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大收益问题" />
+    <MESSAGE value="子序列和汉诺塔问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="子序列和汉诺塔问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,17 +889,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5657">
-          <caret line="466" column="38" selection-start-line="466" selection-start-column="23" selection-end-line="466" selection-end-column="38" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC93_LRU_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -1322,11 +1311,18 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="35" />
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
             <element signature="e#111#112#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
