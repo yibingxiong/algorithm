@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/ReverseStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,20 +128,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="212">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/Node.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/ReverseStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="418">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -161,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code383.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/leetcode/Code1701.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/TreeTraverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java" />
@@ -212,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/Hannuota.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllSubSeq.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/ReverseStack.java" />
       </list>
     </option>
   </component>
@@ -319,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AllRank">
+  <component name="RunManager" selected="Application.ReverseStack">
     <configuration name="AllRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch8.AllRank" />
       <module name="code" />
@@ -372,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch7.StrConcat" />
+    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch8.ReverseStack" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiong.learn.nowcoder.ch7.*" />
+          <option name="PATTERN" value="com.xiong.learn.nowcoder.ch8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -387,11 +387,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.AllRank" />
         <item itemvalue="Application.AllSubSeq" />
         <item itemvalue="Application.Hannuota" />
         <item itemvalue="Application.CutGold" />
-        <item itemvalue="Application.StrConcat" />
       </list>
     </recent_temporary>
   </component>
@@ -410,14 +410,7 @@
       <workItem from="1595000418492" duration="16767000" />
       <workItem from="1595857507872" duration="18347000" />
       <workItem from="1597539782671" duration="11000" />
-      <workItem from="1598147358181" duration="153840000" />
-    </task>
-    <task id="LOCAL-00004" summary="分治算法-归并和快速排序写一遍">
-      <created>1595256667966</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1595256667966</updated>
+      <workItem from="1598147358181" duration="156063000" />
     </task>
     <task id="LOCAL-00005" summary="分治算法-归并和快速排序写一遍">
       <created>1595373234824</created>
@@ -755,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601394990467</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="全排列">
+      <created>1601426741961</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1601426741962</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -767,7 +767,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211641000" />
+    <option name="totallyTimeSpent" value="213864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
@@ -781,7 +781,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3538874" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5107239" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5241287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -791,7 +791,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.43163538" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.730563" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.24396783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -849,7 +849,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉搜索树的实现" />
     <MESSAGE value="做题" />
     <MESSAGE value="二叉树的深度和广度遍历" />
     <MESSAGE value="排序" />
@@ -874,7 +873,8 @@
     <MESSAGE value="会议安排问题" />
     <MESSAGE value="最大收益问题" />
     <MESSAGE value="子序列和汉诺塔问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="子序列和汉诺塔问题" />
+    <MESSAGE value="全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="全排列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -889,13 +889,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC93_LRU_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC78_reverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -1321,8 +1314,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/AllRank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="212">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/ReverseStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>

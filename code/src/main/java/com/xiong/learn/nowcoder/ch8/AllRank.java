@@ -1,5 +1,7 @@
 package com.xiong.learn.nowcoder.ch8;
 
+import java.util.HashSet;
+
 public class AllRank {
     public static void printAllRank(String str) {
         char[] chars = str.toCharArray();
@@ -17,16 +19,20 @@ public class AllRank {
             System.out.println(String.valueOf(chars));
             return;
         }
+        HashSet<Character> set = new HashSet<>();
         for (int k = i; k <= j; k++) {
-            swap(chars, i, k);
-            process(chars, i + 1, j);
-            swap(chars, i, k);
+            if (!set.contains(chars[k])) {
+                set.add(chars[k]);
+                swap(chars, i, k);
+                process(chars, i + 1, j);
+                swap(chars, i, k);
+            }
         }
     }
 
 
     public static void main(String[] args) {
-        String a = "ABC";
+        String a = "ABBC";
         printAllRank(a);
     }
 
