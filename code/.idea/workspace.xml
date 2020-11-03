@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/READEME.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class01/Code01_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class01/Code02_RandomPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class01/Code03_Islands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class01/Code04_UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/AbstractBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/AbstractSelfBalancingBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/Code01_SizeBalancedTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/Code02_SizeBalancedTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/Code03_SkipListMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,11 +36,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class01/Code02_RandomPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="176">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/AVLTree.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,9 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/OperatorTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/tree/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC93_LRU.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC93_LRU_2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC93_LRU_3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC78_reverse.java" />
@@ -119,6 +146,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch8/ReverseStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/READEME.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class01/Code01_HashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool2.java" />
       </list>
     </option>
   </component>
@@ -170,6 +200,47 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiong" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="c2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="c2" type="462c0819:PsiDirectoryNode" />
+              <item name="class01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="c2" type="462c0819:PsiDirectoryNode" />
+              <item name="self" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -188,10 +259,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xiong.learn.nowcoder.c2.self" />
       <recent name="com.xiong.nowcoder" />
       <recent name="com.xiong.leetcode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\my\algorithm\code\src\main\java\com\xiong\learn\nowcoder\c2\" />
       <recent name="D:\github\my\algorithm\code\src\main\java\com\xiong\learn\nowcoder\c2" />
       <recent name="D:\github\my\algorithm\code\src\main\java\com\xiong\learn\nowcoder\ch7" />
     </key>
@@ -208,22 +281,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code01_HashMap">
+  <component name="RunManager" selected="Application.RandomPool2">
     <configuration name="AllRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch8.AllRank" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiong.learn.nowcoder.ch8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllSubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch8.AllSubSeq" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
@@ -248,12 +308,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hannuota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.ch8.Hannuota" />
+    <configuration name="RandomPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.c2.self.RandomPool" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiong.learn.nowcoder.ch8.*" />
+          <option name="PATTERN" value="com.xiong.learn.nowcoder.c2.self.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomPool2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xiong.learn.nowcoder.c2.self.RandomPool2" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiong.learn.nowcoder.c2.self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,11 +349,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomPool2" />
+        <item itemvalue="Application.RandomPool" />
         <item itemvalue="Application.Code01_HashMap" />
         <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.AllRank" />
-        <item itemvalue="Application.AllSubSeq" />
-        <item itemvalue="Application.Hannuota" />
       </list>
     </recent_temporary>
   </component>
@@ -304,14 +377,7 @@
       <workItem from="1601973530483" duration="1229000" />
       <workItem from="1602346523694" duration="3538000" />
       <workItem from="1602510041028" duration="1297000" />
-      <workItem from="1604366610283" duration="659000" />
-    </task>
-    <task id="LOCAL-00006" summary="分治算法-归并和快速排序写一遍">
-      <created>1595859369709</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1595859369709</updated>
+      <workItem from="1604366610283" duration="3190000" />
     </task>
     <task id="LOCAL-00007" summary="分治算法-归并和快速排序写一遍">
       <created>1597194166783</created>
@@ -649,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601470999839</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="class01">
+      <created>1604367291719</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1604367291719</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -661,7 +734,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221821000" />
+    <option name="totallyTimeSpent" value="224352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
@@ -676,8 +749,8 @@
       <window_info anchor="bottom" id="Jelastic" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38203752" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5241287" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08310992" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46782842" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -686,7 +759,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.43163538" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.58847183" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.16487935" />
       <window_info anchor="bottom" id="GenProtobuf" order="13" />
       <window_info anchor="right" id="Mongo Explorer" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -746,7 +819,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树的深度和广度遍历" />
     <MESSAGE value="排序" />
     <MESSAGE value="堆排序" />
     <MESSAGE value="快速排序" />
@@ -771,7 +843,8 @@
     <MESSAGE value="子序列和汉诺塔问题" />
     <MESSAGE value="全排列" />
     <MESSAGE value="逆序一个栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="逆序一个栈" />
+    <MESSAGE value="class01" />
+    <option name="LAST_COMMIT_MESSAGE" value="class01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -782,31 +855,16 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool2.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC88.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC53.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC45.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1152,10 +1210,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class02/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/class01/Code02_RandomPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="176">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/c2/self/RandomPool2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
