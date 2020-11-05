@@ -2,6 +2,9 @@ package com.xiong.nowcoder;
 
 import java.util.ArrayList;
 
+/**
+ * 时间复杂度， 最坏的就是数组是倒序的，要找到 k==数组长度，复杂度为O(n^2)
+ */
 public class NC119 {
     public static class Solution {
         public ArrayList<Integer> GetLeastNumbers_Solution(int[] input, int k) {
@@ -18,25 +21,32 @@ public class NC119 {
             }
             ArrayList<Integer> list = new ArrayList<>();
             for (int i = 0; i < arr.length; i++) {
-                list.add(arr[i]);
+                if (arr[i] != null) {
+                    list.add(arr[i]);
+                }
             }
             return list;
+        }
+
+        private void swap(Integer[] a, int p, int j) {
+            int t = a[p];
+            a[p] = a[j];
+            a[j] = t;
         }
 
         private void insert(Integer[] a, int p, int m) {
             int t = p;
             a[p] = m;
-            while (m <= a[t] && t > 0) {
-                a[t] = a[t - 1];
+            while (t > 0 && a[t] < a[t - 1]) {
+                swap(a, t, t - 1);
                 t--;
             }
-            a[t] = m;
         }
     }
 
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-        System.out.println(solution.GetLeastNumbers_Solution(new int[]{1,3,4,0}, 3));
+        System.out.println(solution.GetLeastNumbers_Solution(new int[]{4, 5, 1, 6, 2, 7, 3, 8}, 10));
     }
 }
