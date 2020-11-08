@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC46.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="418">
               <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC103.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="946">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -42,20 +42,43 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC75.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC72.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC30.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="1178" column="33" lean-forward="true" selection-start-line="1178" selection-start-column="33" selection-end-line="1178" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC72.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -63,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC113.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="1562">
               <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
             </state>
           </provider>
@@ -84,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch1/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch2/Ex2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch2/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch4/ReverseLink.java" />
@@ -135,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC103.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC75.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC72.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC30.java" />
       </list>
     </option>
   </component>
@@ -160,6 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,13 +192,45 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiong" type="462c0819:PsiDirectoryNode" />
+              <item name="nowcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,20 +376,7 @@
       <workItem from="1602346523694" duration="3538000" />
       <workItem from="1602510041028" duration="1297000" />
       <workItem from="1604366610283" duration="7325000" />
-    </task>
-    <task id="LOCAL-00014" summary="最长公共子串和最长公共子序列的解法">
-      <created>1598164739284</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1598164739284</updated>
-    </task>
-    <task id="LOCAL-00015" summary="最长公共子串和最长公共子序列的解法">
-      <created>1598165342075</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1598165342075</updated>
+      <workItem from="1604838796705" duration="756000" />
     </task>
     <task id="LOCAL-00016" summary="0-1背包问题-价值和重量都是整数的情况">
       <created>1598368076571</created>
@@ -663,7 +707,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604741288021</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="NC30">
+      <created>1604838918868</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1604838918868</updated>
+    </task>
+    <task id="LOCAL-00064" summary="NC30">
+      <created>1604838936267</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1604838936267</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -675,13 +733,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251640000" />
+    <option name="totallyTimeSpent" value="252396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84774435" visible="true" weight="0.26157084" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84774435" visible="true" weight="0.26157084" />
       <window_info id="Structure" order="1" sideWeight="0.15225564" side_tool="true" weight="0.1970547" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -701,7 +759,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50280505" side_tool="true" weight="0.18364611" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840257" weight="0.04021448" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49719495" visible="true" weight="0.12466488" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49719495" visible="true" weight="0.12466488" />
       <window_info anchor="bottom" id="GenProtobuf" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -799,7 +857,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="判断一棵树是否为完全二叉树" />
     <MESSAGE value="判断一颗二叉树是否满的两种方法" />
     <MESSAGE value="判断一颗二叉树是否为平衡二叉树" />
     <MESSAGE value="寻找最小公共祖先" />
@@ -824,7 +881,8 @@
     <MESSAGE value="翻转字符串" />
     <MESSAGE value="异或运算的练习" />
     <MESSAGE value="树的镜像问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="树的镜像问题" />
+    <MESSAGE value="NC30" />
+    <option name="LAST_COMMIT_MESSAGE" value="NC30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,8 +903,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code01_TrieTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code02_LowestLexicography.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code03_LessMoneySplitGold.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code04_BestArrange.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code05_IPO.java" />
@@ -991,13 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-616">
-          <caret line="1163" column="16" selection-start-line="1163" selection-start-column="16" selection-end-line="1163" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/xiong/test/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1122,16 +1171,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC113.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC46.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
+        <state relative-caret-position="418">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1141,26 +1183,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC103.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="946">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC75.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC113.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC72.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC30.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="1178" column="33" lean-forward="true" selection-start-line="1178" selection-start-column="33" selection-end-line="1178" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
