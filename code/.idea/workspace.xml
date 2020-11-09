@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce78c3b4-fb6d-4bfd-8813-b67550d0ad54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC98.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,16 +70,34 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="1178" column="33" lean-forward="true" selection-start-line="1178" selection-start-column="33" selection-end-line="1178" selection-end-column="33" />
+              <caret line="1259" column="33" lean-forward="true" selection-start-line="1259" selection-start-column="33" selection-end-line="1259" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC98.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="66">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -107,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch2/Ex2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch2/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch4/ReverseLink.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch4/DoubleLinkReverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch4/PrintCommon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch4/IsHuiwen.java" />
@@ -158,6 +174,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC75.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC72.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC30.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC16.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC98.java" />
       </list>
     </option>
   </component>
@@ -376,21 +395,7 @@
       <workItem from="1602346523694" duration="3538000" />
       <workItem from="1602510041028" duration="1297000" />
       <workItem from="1604366610283" duration="7325000" />
-      <workItem from="1604838796705" duration="756000" />
-    </task>
-    <task id="LOCAL-00016" summary="0-1背包问题-价值和重量都是整数的情况">
-      <created>1598368076571</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1598368076571</updated>
-    </task>
-    <task id="LOCAL-00017" summary="0-1背包问题-价值和重量都是整数的情况">
-      <created>1598399840357</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1598399840357</updated>
+      <workItem from="1604838796705" duration="2693000" />
     </task>
     <task id="LOCAL-00018" summary="最长公共子串问题">
       <created>1598402821066</created>
@@ -721,7 +726,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604838936267</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="NC30">
+      <created>1604841192759</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1604841192759</updated>
+    </task>
+    <task id="LOCAL-00066" summary="NC16">
+      <created>1604848755469</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1604848755469</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -733,13 +752,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252396000" />
+    <option name="totallyTimeSpent" value="254333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-7" width="1484" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84774435" visible="true" weight="0.26157084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84774435" visible="true" weight="0.26157084" />
       <window_info id="Structure" order="1" sideWeight="0.15225564" side_tool="true" weight="0.1970547" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -759,7 +778,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50280505" side_tool="true" weight="0.18364611" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840257" weight="0.04021448" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49719495" visible="true" weight="0.12466488" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49719495" visible="true" weight="0.12466488" />
       <window_info anchor="bottom" id="GenProtobuf" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -857,7 +876,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="判断一颗二叉树是否满的两种方法" />
     <MESSAGE value="判断一颗二叉树是否为平衡二叉树" />
     <MESSAGE value="寻找最小公共祖先" />
     <MESSAGE value="树的序列化与反序列化" />
@@ -882,7 +900,8 @@
     <MESSAGE value="异或运算的练习" />
     <MESSAGE value="树的镜像问题" />
     <MESSAGE value="NC30" />
-    <option name="LAST_COMMIT_MESSAGE" value="NC30" />
+    <MESSAGE value="NC16" />
+    <option name="LAST_COMMIT_MESSAGE" value="NC16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -903,8 +922,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code03_LessMoneySplitGold.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code04_BestArrange.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code05_IPO.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch7/Code06_MadianQuick.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/learn/nowcoder/ch6/MinGenerageGraph.java">
@@ -1219,14 +1236,28 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="1178" column="33" lean-forward="true" selection-start-line="1178" selection-start-column="33" selection-end-line="1178" selection-end-column="33" />
+          <caret line="1259" column="33" lean-forward="true" selection-start-line="1259" selection-start-column="33" selection-end-line="1259" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="396">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC98.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
