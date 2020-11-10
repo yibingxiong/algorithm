@@ -7,6 +7,9 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC69.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC73.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC57.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC63.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +30,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret line="3" selection-start-line="3" selection-end-line="49" selection-end-column="5" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="1292" column="33" lean-forward="true" selection-start-line="1292" selection-start-column="33" selection-end-line="1292" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -36,6 +44,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC29.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -45,6 +58,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,6 +72,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
               <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC98.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -63,6 +86,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="515">
+              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -76,6 +104,11 @@
                 <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
               </folding>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC117.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,6 +118,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC61.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -94,6 +132,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC63.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -103,6 +146,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="101">
               <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC57.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -112,6 +160,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-344">
               <caret line="1276" column="16" selection-start-line="1276" selection-start-column="16" selection-end-line="1276" selection-end-column="16" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-311">
+              <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+              <folding>
+                <element signature="e#5687#5688#0" expanded="true" />
+                <element signature="e#5750#5751#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,6 +239,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC55.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC69.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC25.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC22.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC117.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC61.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC63.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC57.java" />
       </list>
     </option>
   </component>
@@ -395,35 +457,7 @@
       <workItem from="1602346523694" duration="3538000" />
       <workItem from="1602510041028" duration="1297000" />
       <workItem from="1604366610283" duration="7325000" />
-      <workItem from="1604838796705" duration="3407000" />
-    </task>
-    <task id="LOCAL-00020" summary="贪心算法-装载问题">
-      <created>1598539978094</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1598539978094</updated>
-    </task>
-    <task id="LOCAL-00021" summary="贪心算法-哈夫曼树构造">
-      <created>1598773800031</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1598773800031</updated>
-    </task>
-    <task id="LOCAL-00022" summary="啦啦啦">
-      <created>1598796589003</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1598796589003</updated>
-    </task>
-    <task id="LOCAL-00023" summary="基于后缀表达式构建表达式树">
-      <created>1598798263199</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1598798263199</updated>
+      <workItem from="1604838796705" duration="7594000" />
     </task>
     <task id="LOCAL-00024" summary="二叉搜索树的实现">
       <created>1598803046611</created>
@@ -740,7 +774,35 @@
       <option name="project" value="LOCAL" />
       <updated>1604883509420</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="NC98">
+      <created>1604884266262</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1604884266262</updated>
+    </task>
+    <task id="LOCAL-00070" summary="NC117">
+      <created>1604933679219</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1604933679219</updated>
+    </task>
+    <task id="LOCAL-00071" summary="NC61">
+      <created>1604934637443</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1604934637443</updated>
+    </task>
+    <task id="LOCAL-00072" summary="NC63">
+      <created>1604936063381</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1604936063381</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -753,6 +815,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="256168000" />
+    <option name="totallyTimeSpent" value="259234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1415" y="161" width="1920" height="877" extended-state="0" />
@@ -783,6 +846,20 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840257" weight="0.04021448" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4943899" weight="0.21581769" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8029453" weight="0.4075067" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49893504" visible="true" weight="0.09115282" />
+      <window_info anchor="bottom" id="Jelastic" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50280505" side_tool="true" weight="0.18364611" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840257" weight="0.04021448" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49719495" weight="0.43967828" />
+      <window_info anchor="bottom" id="GenProtobuf" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -884,9 +961,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="寻找最小公共祖先" />
-    <MESSAGE value="树的序列化与反序列化" />
-    <MESSAGE value="bfs" />
     <MESSAGE value="dfs" />
     <MESSAGE value="拓扑排序" />
     <MESSAGE value="最小生成图" />
@@ -909,7 +983,10 @@
     <MESSAGE value="NC30" />
     <MESSAGE value="NC16" />
     <MESSAGE value="NC98" />
-    <option name="LAST_COMMIT_MESSAGE" value="NC98" />
+    <MESSAGE value="NC117" />
+    <MESSAGE value="NC61" />
+    <MESSAGE value="NC63" />
+    <option name="LAST_COMMIT_MESSAGE" value="NC63" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1214,6 +1291,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-344">
           <caret line="1276" column="16" selection-start-line="1276" selection-start-column="16" selection-end-line="1276" selection-end-column="16" />
+        <state relative-caret-position="352">
+          <caret line="1292" column="33" lean-forward="true" selection-start-line="1292" selection-start-column="33" selection-end-line="1292" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1240,8 +1319,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC22.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="515">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC117.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC61.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="e#5687#5688#0" expanded="true" />
+            <element signature="e#5750#5751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC63.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiong/nowcoder/NC57.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
         </state>
       </provider>
     </entry>
