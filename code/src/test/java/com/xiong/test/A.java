@@ -9,9 +9,12 @@ public class A {
     private static final String a = "a";
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
 
         for (Integer integer : arrayList) {
-
+            System.out.println(integer);
         }
         for (Integer integer : arrayList) {
 
@@ -22,7 +25,12 @@ public class A {
         }*/
 
         if (arrayList == null) {
+
             System.out.println(3);
+
+        }
+        for (Integer integer : arrayList) {
+
         }
     }
 }
