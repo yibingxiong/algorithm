@@ -15,7 +15,8 @@
 3. 利用有序性 + 双指针的思路，时间O(n^2),空间O(1)
 */
 // @lc code=start
-// 方法1
+// 1. 第一个想到的就是暴力解了，每三个数算一次，
+// 和为0就是解，时间复杂度O(n^3),空间O(n), 用一个set做去重. 过不了
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -46,7 +47,8 @@
 //   return res;
 // };
 
-// 方法2
+// 1.1 先排序，再做，这样去重会方便一些,时间O(n^3),空间O(1). 也过不了，过了
+// 315/318,有三个比较长的case过不了
 // var threeSum = function (nums) {
 //   nums.sort((a, b) => a - b);
 //   let res = [];
@@ -71,7 +73,8 @@
 //   return res
 // }
 
-// 方法3
+// 2. 遍历一遍，建立数字和位置的映射map。两个两个算，用和的相反数去map查，
+// 做一些判断和处理即可时间O(n^2)，空间O(n) 这种能通过，不过效率也很低
 // var threeSum = function (nums) {
 //   nums.sort((a, b) => a - b);
 //   const map = {};
