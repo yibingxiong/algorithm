@@ -15,11 +15,11 @@
  * @return {number}
  */
 
-function swap(nums, i, j) {
-  let t = nums[i];
-  nums[i] = nums[j];
-  nums[j] = t;
-}
+// function swap(nums, i, j) {
+//   let t = nums[i];
+//   nums[i] = nums[j];
+//   nums[j] = t;
+// }
 // var removeDuplicates = function (nums) {
 //   if (nums.length === 1) {
 //     return 1;
@@ -34,14 +34,41 @@ function swap(nums, i, j) {
 //   return nums.length;
 // };
 
+// var removeDuplicates = function (nums) {
+//   if (nums.length === 0) {
+//     return 0;
+//   }
+//   let i = 0;
+//   for (let j = 1; j < nums.length; j++) {
+//     if (nums[j] !== nums[i]) {
+//       nums[++i] = nums[j]
+//     }
+//   }
+//   return i + 1;
+// };
+
+// 第2遍
+// var removeDuplicates = function (nums) {
+//   if (nums === null || nums.length <= 1) {
+//     return nums ? nums.length : 0;
+//   }
+//   let i = 1;
+//   for (let j = 1; j < nums.length; j++) {
+//     if (nums[j] !== nums[j - 1]) {
+//       nums[i++] = nums[j];
+//     }
+//   }
+//   return i;
+// };
+
 var removeDuplicates = function (nums) {
-  if (nums.length === 0) {
-    return 0;
+  if (nums === null || nums.length <= 1) {
+    return nums ? nums.length : 0;
   }
   let i = 0;
   for (let j = 1; j < nums.length; j++) {
     if (nums[j] !== nums[i]) {
-      nums[++i] = nums[j]
+      nums[++i] = nums[j];
     }
   }
   return i + 1;
