@@ -24,62 +24,110 @@ function ListNode(val, next) {
  * @return {ListNode}
  */
 // 方法1 写法方面还需要完善
+// var reverseKGroup = function (head, k) {
+//   if (head === null || head.next === null) {
+//     return head;
+//   }
+//   let preGroupLast = null;
+//   let cur = head;
+
+//   while (cur !== null) {
+//     let c = 1;
+//     let start = cur;
+//     let innerCur = cur;
+//     while (c < k) {
+//       innerCur = innerCur.next;
+//       if (innerCur !== null) {
+//         c++;
+//       } else {
+//         break;
+//       }
+//     }
+//     // 此时innerCur为最后的一个节点
+//     let bigLoopNext = null;
+//     let end = innerCur;
+//     if (c === k) { // 够k个，需要翻转
+//       bigLoopNext = innerCur.next;
+//       innerCur = start;
+//       let pre = null;
+//       c = 0;
+//       while (c < k) {
+//         c++;
+//         let next = innerCur.next;
+//         innerCur.next = pre;
+//         pre = innerCur;
+//         innerCur = next;
+//       }
+//       start.next = null;
+//     } else {
+//       if (preGroupLast !== null) {
+//         preGroupLast.next = start;
+//         break;
+//       } else {
+//         head = start;
+//         break;
+//       }
+//     }
+//     if (preGroupLast === null) {
+//       head = end;
+//     } else if (c === k) {
+//       preGroupLast.next = end;
+//     } else {
+//       preGroupLast.next = start;
+//     }
+//     preGroupLast = start;
+//     cur = bigLoopNext;
+//   }
+//   return head;
+// };
+
+// 第二遍
+
+// 1 直接模拟整个过程即可
+
+
+// 2 先打成二维数组，然后再拼
+// var reverseKGroup = function (head, k) {
+
+// };
+
+// 3. 也是模拟非常巧妙
+
 var reverseKGroup = function (head, k) {
-  if (head === null || head.next === null) {
+  if (head === null || head.next === null || k === 1) {
     return head;
   }
-  let preGroupLast = null;
-  let cur = head;
-
-  while (cur !== null) {
-    let c = 1;
-    let start = cur;
-    let innerCur = cur;
-    while (c < k) {
-      innerCur = innerCur.next;
-      if (innerCur !== null) {
-        c++;
-      } else {
-        break;
-      }
-    }
-    // 此时innerCur为最后的一个节点
-    let bigLoopNext = null;
-    let end = innerCur;
-    if (c === k) { // 够k个，需要翻转
-      bigLoopNext = innerCur.next;
-      innerCur = start;
-      let pre = null;
-      c = 0;
-      while (c < k) {
-        c++;
-        let next = innerCur.next;
-        innerCur.next = pre;
-        pre = innerCur;
-        innerCur = next;
-      }
-      start.next = null;
+  const dummyNode = new ListNode(0);
+  dummyNode.next = head;
+  let c = 0;
+  let preGEnd = dummyNode;
+  while (head !== null) {
+    if (++c % k === 0) {
+      preGEnd = reverse(preGEnd, head.next);
+      head = preGEnd.next;
     } else {
-      if (preGroupLast !== null) {
-        preGroupLast.next = start;
-        break;
-      } else {
-        head = start;
-        break;
-      }
+      head = head.next;
     }
-    if (preGroupLast === null) {
-      head = end;
-    } else if (c === k) {
-      preGroupLast.next = end;
-    } else {
-      preGroupLast.next = start;
-    }
-    preGroupLast = start;
-    cur = bigLoopNext;
   }
-  return head;
+  return dummyNode.next;
 };
+
+var reverse = (preGEnd, end) => {
+  let cur = preGEnd.next;
+  let first = cur;
+  let pre = preGEnd;
+  while (cur !== end) {
+    const next = cur.next;
+    cur.next = pre;
+    pre = cur;
+    cur = next;
+  }
+  first.next = end;
+  preGEnd.next = pre;
+  return first;
+}
+
+
 // @lc code=end
 
 /// test
