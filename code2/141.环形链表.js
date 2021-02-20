@@ -39,15 +39,51 @@
 // };
 
 // 方法2
+// var hasCycle = function (head) {
+//   if (head === null || head.next === null) {
+//     return false;
+//   }
+
+//   let slow = head;
+//   let fast = head;
+
+//   while (fast != null && fast.next != null) {
+//     slow = slow.next;
+//     fast = fast.next.next;
+//     if (slow === fast) {
+//       return true;
+//     }
+//   }
+//   return false;
+// };
+
+// 第二遍
+
+// 1 用set解决 时间O(n) 空间O(n)
+
+// var hasCycle = function (head) {
+//   if (head === null) return false;
+
+//   const set = new Set();
+//   while (head !== null) {
+//     if (set.has(head)) {
+//       return true;
+//     }
+//     set.add(head);
+//     head = head.next;
+//   }
+//   return false;
+// };
+
+// 2 快慢指针
+
 var hasCycle = function (head) {
-  if (head === null || head.next === null) {
-    return false;
-  }
+  if (head === null || head.next === null) return false;
 
-  let slow = head;
   let fast = head;
+  let slow = head;
 
-  while (fast != null && fast.next != null) {
+  while (fast != null && fast.next !== null) {
     slow = slow.next;
     fast = fast.next.next;
     if (slow === fast) {
@@ -56,5 +92,8 @@ var hasCycle = function (head) {
   }
   return false;
 };
+
+
+
 // @lc code=end
 
