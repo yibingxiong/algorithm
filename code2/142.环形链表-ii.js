@@ -45,18 +45,62 @@
 // };
 
 // 方法2
+// var detectCycle = function (head) {
+//   if (head === null || head.next === null) {
+//     return null;
+//   }
+
+//   let set = new Set();
+//   while (head !== null) {
+//     if (set.has(head)) {
+//       return head;
+//     }
+//     set.add(head);
+//     head = head.next;
+//   }
+//   return null;
+// };
+
+
+
+// 第二遍
+
+// 1 用set， 空间O(n) 时间O(n)
+
+// var detectCycle = function (head) {
+//   if (head === null) {
+//     return null;
+//   }
+//   const set = new Set();
+//   while (head !== null) {
+//     if (set.has(head)) {
+//       return head;
+//     }
+//     set.add(head);
+//     head = head.next;
+//   }
+//   return null;
+// };
+
+// 2  快慢指针， 空间O(1) 时间 O(n)
 var detectCycle = function (head) {
   if (head === null || head.next === null) {
     return null;
   }
+  let fast, slow;
+  slow = fast = head;
 
-  let set = new Set();
-  while (head !== null) {
-    if (set.has(head)) {
-      return head;
+  while (fast !== null && fast.next !== null) {
+    slow = slow.next;
+    fast = fast.next.next;
+    if (slow === fast) {
+      fast = head;
+      while (fast !== slow) {
+        fast = fast.next;
+        slow = slow.next;
+      }
+      return fast;
     }
-    set.add(head);
-    head = head.next;
   }
   return null;
 };
