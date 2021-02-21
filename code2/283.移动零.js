@@ -101,20 +101,34 @@ function swap(nums, i, j) {
 // };
 
 // 这种方法应该是最优解了，前面这个因为swap操作的成本比较高了
+// var moveZeroes = function (nums) {
+//   let i,j;
+//   i = j = 0;
+//   let len = nums.length;
+//   while(j < len) {
+//     if (nums[j] !== 0) {
+//       nums[i++] = nums[j]
+//     }
+//     j++;
+//   }
+//   while(i < len) {
+//     nums[i++] = 0;
+//   }
+// };
+
+// 第3遍
 var moveZeroes = function (nums) {
-  let i,j;
-  i = j = 0;
-  let len = nums.length;
-  while(j < len) {
+  let i = 0;
+  let j = 0;
+  while (i < nums.length && j < nums.length) {
     if (nums[j] !== 0) {
       nums[i++] = nums[j]
     }
     j++;
   }
-  while(i < len) {
+  while (i < nums.length) {
     nums[i++] = 0;
   }
 };
-
 // @lc code=end
 
