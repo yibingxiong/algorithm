@@ -55,6 +55,57 @@
 // }
 
 // 方法3
+// var rotate = function (nums, k) {
+//   k = k % nums.length;
+//   reverse(nums, 0, nums.length - 1);
+//   reverse(nums, 0, k - 1);
+//   reverse(nums, k, nums.length - 1);
+// };
+
+// function reverse(nums, i, j) {
+//   for (let k = 0; k <= (j - i) / 2; k++) {
+//     let t = nums[i + k];
+//     nums[i + k] = nums[j - k];
+//     nums[j - k] = t;
+//   }
+// }
+
+// 第2遍
+
+// 1 时间空间都是O(n)
+// var rotate = function (nums, k) {
+//   k = k % nums.length;
+//   const help = [...nums.slice(nums.length - k), ...nums.slice(0, nums.length - k)]
+//   for (let i = 0; i < nums.length; i++) {
+//     nums[i] = help[i];
+//   }
+// };
+
+// 2 一个一个移动，时间O(n^2) 空间O(1)
+// var rotate = function (nums, k) {
+//   k = k % nums.length;
+//   for (let i = 0; i < k; i++) {
+//     moveOne(nums);
+//   }
+// };
+// const moveOne = function (nums) {
+//   let last = nums[nums.length - 1];
+//   for (let i = nums.length - 1; i > 0; i--) {
+//     nums[i] = nums[i - 1];
+//   }
+//   nums[0] = last;
+// }
+
+// 3 巧用规律 空间O(1) 时间 O (n)
+
+// nums = "----->-->"; k =3
+// result = "-->----->";
+
+// reverse "----->-->" we can get "<--<-----"
+// reverse "<--" we can get "--><-----"
+// reverse "<-----" we can get "-->----->"
+// this visualization help me figure it out :)
+
 var rotate = function (nums, k) {
   k = k % nums.length;
   reverse(nums, 0, nums.length - 1);
@@ -62,13 +113,16 @@ var rotate = function (nums, k) {
   reverse(nums, k, nums.length - 1);
 };
 
-function reverse(nums, i, j) {
-  for (let k = 0; k <= (j - i) / 2; k++) {
-    let t = nums[i + k];
-    nums[i + k] = nums[j - k];
-    nums[j - k] = t;
+const reverse = function (nums, i, j) {
+  while (i < j) {
+    let t = nums[i];
+    nums[i] = nums[j];
+    nums[j] = t;
+    i++;
+    j--;
   }
 }
+
 
 // @lc code=end
 
