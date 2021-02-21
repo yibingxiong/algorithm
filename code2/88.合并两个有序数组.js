@@ -37,17 +37,36 @@
 //     }
 // };
 
-// 方法2
+
+// 第2遍
+
+// 1 一个一个插入 时间O(mn) 空间O(1)
+// var merge = function (nums1, m, nums2, n) {
+//     for (let i = 0; i < n; i++) {
+//         let t = nums2[i];
+//         let pos = m + i;
+//         while (pos > 0 && nums1[pos - 1] > t) {
+//             nums1[pos] = nums1[pos - 1];
+//             pos--;
+//         }
+//         nums1[pos] = t;
+//     }
+// };
+
+// 2 从后往前，省空间，每次都找最大
 var merge = function (nums1, m, nums2, n) {
-    let len = m;
-    for(let i = 0; i< n; i++) {
-        let t = nums2[i];
-        let c = len;
-        while(t < nums1[c]) {
-            nums1[c] = nums1[c-1];
-            c--;
-        }
+    let i = m - 1;
+    let j = n - 1;
+    let k = m + n - 1;
+    while (i >= 0 && j >= 0) {
+        nums1[k--] = nums1[i] > nums2[j] ? nums1[i--] : nums2[j--];
+    }
+    while (j >= 0) {
+        nums1[k--] = nums2[j--];
     }
 };
+// let a = [9, 10, 11, 12]
+// merge(a, 4, [3, 4, 5], 3)
+// console.log(a.join(','))
 // @lc code=end
 
