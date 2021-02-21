@@ -27,14 +27,28 @@
 //   return null;
 // };
 
+// var twoSum = function (nums, target) {
+//   let map = {};
+//   for (let i = 0; i < nums.length; i++) {
+//     let k = map[target - nums[i]]
+//     if (typeof map[target - nums[i]] === 'undefined') {
+//       map[nums[i]] = i;
+//     } else {
+//       return [i, k]
+//     }
+//   }
+//   return null;
+// };
+
+// 第2遍
+
 var twoSum = function (nums, target) {
-  let map = {};
+  const map = {};
   for (let i = 0; i < nums.length; i++) {
-    let k = map[target - nums[i]]
-    if (typeof map[target - nums[i]] === 'undefined') {
-      map[nums[i]] = i;
+    if (map[target - nums[i]] != undefined) {
+      return [i, map[target - nums[i]]]
     } else {
-      return [i, k]
+      map[nums[i]] = i;
     }
   }
   return null;
