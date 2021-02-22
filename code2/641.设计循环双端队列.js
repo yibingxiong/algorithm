@@ -10,7 +10,8 @@
  * @param {number} k
  */
 var MyCircularDeque = function(k) {
-
+  this.capacity = k;
+  this.data = [];
 };
 
 /**
@@ -19,7 +20,11 @@ var MyCircularDeque = function(k) {
  * @return {boolean}
  */
 MyCircularDeque.prototype.insertFront = function(value) {
-
+  if (this.data.length >= this.capacity) {
+    return false;
+  }
+  this.data.unshift(value);
+  return true;
 };
 
 /**
@@ -28,7 +33,11 @@ MyCircularDeque.prototype.insertFront = function(value) {
  * @return {boolean}
  */
 MyCircularDeque.prototype.insertLast = function(value) {
-
+  if (this.data.length >= this.capacity) {
+    return false;
+  }
+  this.data.push(value);
+  return true;
 };
 
 /**
@@ -36,7 +45,12 @@ MyCircularDeque.prototype.insertLast = function(value) {
  * @return {boolean}
  */
 MyCircularDeque.prototype.deleteFront = function() {
-
+  if (this.data.length > 0) {
+    this.data.shift();
+    return true;
+  } else {
+    return false;
+  }
 };
 
 /**
@@ -44,7 +58,12 @@ MyCircularDeque.prototype.deleteFront = function() {
  * @return {boolean}
  */
 MyCircularDeque.prototype.deleteLast = function() {
-
+  if (this.data.length > 0) {
+    this.data.pop();
+    return true;
+  } else {
+    return false;
+  }
 };
 
 /**
@@ -52,7 +71,12 @@ MyCircularDeque.prototype.deleteLast = function() {
  * @return {number}
  */
 MyCircularDeque.prototype.getFront = function() {
-
+  if (this.data.length > 0) {
+    const res = this.data[0];
+    return res;
+  } else {
+    return -1;
+  }
 };
 
 /**
@@ -60,7 +84,12 @@ MyCircularDeque.prototype.getFront = function() {
  * @return {number}
  */
 MyCircularDeque.prototype.getRear = function() {
-
+  if (this.data.length > 0) {
+    const res = this.data[this.data.length - 1];
+    return res;
+  } else {
+    return -1;
+  }
 };
 
 /**
@@ -68,7 +97,7 @@ MyCircularDeque.prototype.getRear = function() {
  * @return {boolean}
  */
 MyCircularDeque.prototype.isEmpty = function() {
-
+  return this.data.length === 0;
 };
 
 /**
@@ -76,7 +105,7 @@ MyCircularDeque.prototype.isEmpty = function() {
  * @return {boolean}
  */
 MyCircularDeque.prototype.isFull = function() {
-
+  return this.data.length === this.capacity;
 };
 
 /**
