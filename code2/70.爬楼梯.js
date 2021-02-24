@@ -71,5 +71,26 @@ var climbStairs = function (n) {
   return Math.round(fibn / sqrt5);
 };
 
+
+// 第2遍
+
+// 1
+
+var climbStairs = function (n) {
+  let a = 1;
+  let b = 2;
+  let res = 2;
+  
+  if (n === 1) {
+    return 1;
+  }
+  for (let i = 3; i <= n; i++) {
+    res = a + b;
+    a = b;
+    b = res;
+  }
+  return res;
+};
+
 // @lc code=end
 
