@@ -24,31 +24,41 @@
 //   return res;
 // };
 // 2
+// /**
+//  * @param {number} x
+//  * @param {number} n
+//  * @return {number}
+//  */
+// var myPow = function (x, n) {
+//   function pow(x, n) {
+//     if (n === 0) {
+//       return 1;
+//     }
+//     if (n === 1) {
+//       return x;
+//     }
+//     const a = pow(x, Math.floor(n / 2));
+//     if (n % 2 === 0) {
+//       return a * a;
+//     } else {
+//       return a * a * x;
+//     }
+//   }
+//   const b = pow(x, Math.abs(n));
+//   if (n < 0) {
+//     return 1 / b;
+//   }
+//   return b;
+// };
+
+// 3
 /**
  * @param {number} x
  * @param {number} n
  * @return {number}
  */
 var myPow = function (x, n) {
-  function pow(x, n) {
-    if (n === 0) {
-      return 1;
-    }
-    if (n === 1) {
-      return x;
-    }
-    const a = pow(x, Math.floor(n / 2));
-    if (n % 2 === 0) {
-      return a * a;
-    } else {
-      return a * a * x;
-    }
-  }
-  const b = pow(x, Math.abs(n));
-  if (n < 0) {
-    return 1 / b;
-  }
-  return b;
+  return Math.pow(x, n)
 };
 // @lc code=end
 
