@@ -128,27 +128,52 @@
 // };
 
 // 5
+// /**
+//  * @param {TreeNode} root
+//  * @return {boolean}
+//  */
+// var isValidBST = function (root) {
+//     const stack = [];
+//     let last = Number.MIN_SAFE_INTEGER;
+//     while (stack.length || root) {
+//         while (root) {
+//             stack.push(root);
+//             root = root.left;
+//         }
+//         const node = stack.pop();
+//         if (node.val <= last) {
+//             return false;
+//         }
+//         last = node.val;
+//         root = node.right;
+//     }
+
+//     return true;
+// };
+
 /**
  * @param {TreeNode} root
  * @return {boolean}
  */
 var isValidBST = function (root) {
-    const stack = [];
+    if (root === null) return true;
     let last = Number.MIN_SAFE_INTEGER;
-    while (stack.length || root) {
-        while (root) {
-            stack.push(root);
-            root = root.left;
+    let f = true;
+    function dfs(node) {
+        if (node === null) {
+            return;
         }
-        const node = stack.pop();
-        if (node.val <= last) {
-            return false;
+        dfs(node.left);
+        if (last >= node.val) {
+            f = false;
+            return;
         }
         last = node.val;
-        root = node.right;
+        dfs(node.right);
     }
+    dfs(root);
 
-    return true;
+    return f;
 };
 // @lc code=end
 
