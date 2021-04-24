@@ -62,23 +62,49 @@
 // };
 
 // 4
+// var maxDepth = function (root) {
+//   const queue = [];
+//   if (root === null) return 0;
+//   queue.push(root);
+//   let level = 0;
+//   while (queue.length) {
+//     let len = queue.length;
+//     level++;
+//     for (let i = 0; i < len; i++) {
+//       const node = queue.shift();
+//       if (node.left) {
+//         queue.push(node.left);
+//       }
+//       if (node.right) {
+//         queue.push(node.right);
+//       }
+//     }
+//   }
+//   return level;
+// }
+
+// var maxDepth = function (root) {
+//   if (root === null) return 0;
+//   return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
+// }
+
 var maxDepth = function (root) {
-  const queue = [];
   if (root === null) return 0;
-  queue.push(root);
+  const queue = [root];
   let level = 0;
-  while (queue.length) {
+  while(queue.length) {
     let len = queue.length;
-    level++;
-    for (let i = 0; i < len; i++) {
+    for(let i = 0; i < len; i++) {
       const node = queue.shift();
       if (node.left) {
         queue.push(node.left);
       }
+      
       if (node.right) {
         queue.push(node.right);
       }
     }
+    level++;
   }
   return level;
 }
