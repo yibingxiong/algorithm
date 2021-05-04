@@ -30,20 +30,41 @@
 //   return res;
 // };
 
-// 2
+// // 2
+// /**
+//  * @param {number[]} nums
+//  * @return {number[][]}
+//  */
+// var subsets = function (nums) {
+//   const res = [[]];
+//   for (const num of nums) {
+//     const subset = [];
+//     for (const r of res) {
+//       subset.push([...r, num])
+//     }
+//     res.push(...subset)
+//   }
+//   return res;
+// };
+
+// 3
 /**
  * @param {number[]} nums
  * @return {number[][]}
  */
 var subsets = function (nums) {
-  const res = [[]];
-  for (const num of nums) {
-    const subset = [];
-    for (const r of res) {
-      subset.push([...r, num])
+  const res = [];
+  function dfs(pos = 0, tmp = []) {
+    if (pos === nums.length) {
+      res.push(tmp.concat());
+      return;
     }
-    res.push(...subset)
+    tmp.push(nums[pos++]);
+    dfs(pos, tmp);
+    tmp.pop();
+    dfs(pos, tmp);
   }
+  dfs();
   return res;
 };
 // @lc code=end

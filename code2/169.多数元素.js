@@ -36,24 +36,44 @@
 //     return nums[Math.floor(nums.length / 2)]
 // };
 
-// 3
+// // 3
+// /**
+//  * @param {number[]} nums
+//  * @return {number}
+//  */
+// var majorityElement = function(nums) {
+//     let major = nums[0], count= 1, len = nums.length;
+//     for (let i = 1; i < len; i++) {
+//         if (count === 0) {
+//             major = nums[i];
+//             count = 1;
+//         } else if (nums[i] === major) {
+//             count++;
+//         } else {
+//             count--;
+//         }
+//     }
+//     return major;
+// };
+
+// 4
 /**
  * @param {number[]} nums
  * @return {number}
  */
-var majorityElement = function(nums) {
-    let major = nums[0], count= 1, len = nums.length;
-    for (let i = 1; i < len; i++) {
-        if (count === 0) {
-            major = nums[i];
-            count = 1;
-        } else if (nums[i] === major) {
-            count++;
+var majorityElement = function (nums) {
+    let res = null, c = 0;
+    for (const i of nums) {
+        if (c === 0) {
+            res = i;
+            c = 1;
+        } else if (i === res) {
+            c++;
         } else {
-            count--;
+            c--;
         }
     }
-    return major;
+    return res;
 };
 // @lc code=end
 
