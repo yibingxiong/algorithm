@@ -35,6 +35,27 @@
 // };
 
 // 方法2
+// /**
+//  * @param {string} s
+//  * @return {boolean}
+//  */
+// var isValid = function (s) {
+//   const stack = [];
+//   for (let i = 0; i < s.length; i++) {
+//     switch (s[i]) {
+//       case '(': stack.push(')'); break;
+//       case '[': stack.push(']'); break;
+//       case '{': stack.push('}'); break;
+//       default:
+//         if (stack.length === 0 || stack.pop() !== s[i]) {
+//           return false;
+//         }
+//     }
+//   }
+//   return stack.length === 0;
+// };
+
+// 3
 /**
  * @param {string} s
  * @return {boolean}
@@ -42,12 +63,19 @@
 var isValid = function (s) {
   const stack = [];
   for (let i = 0; i < s.length; i++) {
-    switch (s[i]) {
-      case '(': stack.push(')'); break;
-      case '[': stack.push(']'); break;
-      case '{': stack.push('}'); break;
+    let c = s.charAt(i);
+    switch (c) {
+      case '{':
+        stack.push('}');
+        break;
+      case '[':
+        stack.push(']');
+        break;
+      case '(':
+        stack.push(')')
+        break
       default:
-        if (stack.length === 0 || stack.pop() !== s[i]) {
+        if (!stack.length || stack.pop() !== c) {
           return false;
         }
     }

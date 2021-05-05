@@ -96,10 +96,33 @@ function ListNode(val, next) {
 // };
 
 // 第2遍
+// var mergeTwoLists = function (l1, l2) {
+//   const dummyNode = new ListNode(0);
+//   let cur = dummyNode;
+//   while (l1 !== null && l2 !== null) {
+//     if (l1.val < l2.val) {
+//       cur.next = l1;
+//       l1 = l1.next;
+//     } else {
+//       cur.next = l2;
+//       l2 = l2.next;
+//     }
+//     cur = cur.next;
+//   }
+//   if (l1 !== null) {
+//     cur.next = l1;
+//   }
+//   if (l2 !== null) {
+//     cur.next = l2;
+//   }
+//   return dummyNode.next;
+// };
+
+// 3
 var mergeTwoLists = function (l1, l2) {
-  const dummyNode = new ListNode(0);
+  const dummyNode = new ListNode();
   let cur = dummyNode;
-  while (l1 !== null && l2 !== null) {
+  while (l1 && l2) {
     if (l1.val < l2.val) {
       cur.next = l1;
       l1 = l1.next;
@@ -109,12 +132,7 @@ var mergeTwoLists = function (l1, l2) {
     }
     cur = cur.next;
   }
-  if (l1 !== null) {
-    cur.next = l1;
-  }
-  if (l2 !== null) {
-    cur.next = l2;
-  }
+  cur.next = l1 ? l1 : l2;
   return dummyNode.next;
 };
 // @lc code=end
