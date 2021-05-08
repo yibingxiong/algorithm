@@ -167,7 +167,32 @@
 
 // 6
 var swapPairs = function (head) {
-  
+  let newHead = null;
+  let preLast = null;
+
+  while (head && head.next) {
+    const a = head;
+    const b = head.next;
+    const next = b.next;
+    a.next = null;
+    b.next = a;
+    if (preLast) {
+      preLast.next = b;
+    }
+    preLast = a;
+    if (newHead === null) {
+      newHead = b;
+    }
+    head = next;
+  }
+  if (head) {
+    if (preLast) {
+      preLast.next = head
+    } else {
+      newHead = head;
+    }
+  }
+  return newHead;
 };
 // @lc code=end
 
