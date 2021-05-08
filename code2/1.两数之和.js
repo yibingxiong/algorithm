@@ -42,16 +42,28 @@
 
 // 第2遍
 
+// var twoSum = function (nums, target) {
+//   const map = {};
+//   for (let i = 0; i < nums.length; i++) {
+//     if (map[target - nums[i]] != undefined) {
+//       return [i, map[target - nums[i]]]
+//     } else {
+//       map[nums[i]] = i;
+//     }
+//   }
+//   return null;
+// };
+
 var twoSum = function (nums, target) {
-  const map = {};
+  const map = new Map();
   for (let i = 0; i < nums.length; i++) {
-    if (map[target - nums[i]] != undefined) {
-      return [i, map[target - nums[i]]]
-    } else {
-      map[nums[i]] = i;
+    const j = target - nums[i];
+    if (map.has(j)) {
+      return [map.get(j), i];
     }
+    map.set(nums[i], i);
   }
-  return null;
+  return [];
 };
 // @lc code=end
 

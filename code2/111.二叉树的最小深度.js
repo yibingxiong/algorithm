@@ -43,17 +43,96 @@
 //     return level;
 // };
 
+// /**
+//  * @param {TreeNode} root
+//  * @return {number}
+//  */
+// var minDepth = function (root) {
+//     if (root === null) {
+//         return 0;
+//     }
+//     let l = minDepth(root.left);
+//     let r = minDepth(root.right);
+//     return (l === 0 || r === 0) ? r + l + 1 : Math.min(l, r) + 1;
+// };
+
+// 3
+// /**
+//  * @param {TreeNode} root
+//  * @return {number}
+//  */
+// var minDepth = function (root) {
+//     const queue = [];
+//     if (root === null) return 0;
+//     queue.push(root);
+//     let level = 0;
+//     while (queue.length) {
+//         level++;
+//         let len = queue.length;
+//         for (let i = 0; i < len; i++) {
+//             const n = queue.shift();
+//             let f = false;
+//             if (n.left) {
+//                 queue.push(n.left);
+//                 f = true;
+//             }
+//             if (n.right) {
+//                 queue.push(n.right)
+//                 f = true;
+//             }
+//             if (!f) {
+//                 return level;
+//             }
+//         }
+//     }
+// };
+
+// 4
 /**
  * @param {TreeNode} root
  * @return {number}
  */
+// var minDepth = function (root) {
+//     if (root === null) return 0;
+
+//     const l = minDepth(root.left);
+//     const r = minDepth(root.right);
+
+//     return (l === 0 || r === 0) ? l + r + 1 : Math.min(l, r) + 1;
+// };
+
+// 5
+// var minDepth = function (root) {
+//     if (root === null) return 0;
+//     let level = 0;
+//     const queue = [root];
+//     while (queue.length) {
+//         level++;
+//         let len = queue.length;
+//         for (let i = 0; i < len; i++) {
+//             const node = queue.shift();
+//             if (node.left === null && node.right === null) {
+//                 return level;
+//             }
+//             if (node.left) {
+//                 queue.push(node.left);
+//             }
+//             if (node.right) {
+//                 queue.push(node.right);
+//             }
+//         }
+//     }
+//     return level;
+// };
+
 var minDepth = function (root) {
-    if (root === null) {
-        return 0;
-    }
+    if (root === null) return 0;
     let l = minDepth(root.left);
     let r = minDepth(root.right);
-    return (l === 0 || r === 0) ? r + l + 1 : Math.min(l, r) + 1;
+    if (l === 0 || r === 0) {
+        return l + r + 1;
+    }
+    return Math.min(l, r) + 1;
 };
 // @lc code=end
 

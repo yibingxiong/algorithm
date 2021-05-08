@@ -77,30 +77,103 @@
 // };
 
 // 3
+// /**
+//  * @param {TreeNode} root
+//  * @return {boolean}
+//  */
+// var isValidBST = function (root) {
+//     if (root === null) {
+//         return true;
+//     }
+//     let last = Number.MIN_SAFE_INTEGER;
+//     let res = true;
+//     function isValid(root) {
+//         if (root === null) {
+//             return;
+//         }
+//         isValid(root.left);
+//         if (root.val <= last) {
+//             res = false;
+//         }
+//         last = root.val;
+//         isValid(root.right);
+//     }
+//     isValid(root);
+
+//     return res;
+// };
+
+// 4
+// /**
+//  * @param {TreeNode} root
+//  * @return {boolean}
+//  */
+// var isValidBST = function (root) {
+//     let isBST = true;
+//     let v = Number.MIN_SAFE_INTEGER;
+
+//     function preOrder(root) {
+//         if (root === null) return;
+//         preOrder(root.left);
+//         if (root.val <= v) {
+//             isBST = false;
+//             return;
+//         }
+//         v = root.val;
+//         preOrder(root.right);
+//     }
+
+//     preOrder(root);
+//     return isBST;
+// };
+
+// 5
+// /**
+//  * @param {TreeNode} root
+//  * @return {boolean}
+//  */
+// var isValidBST = function (root) {
+//     const stack = [];
+//     let last = Number.MIN_SAFE_INTEGER;
+//     while (stack.length || root) {
+//         while (root) {
+//             stack.push(root);
+//             root = root.left;
+//         }
+//         const node = stack.pop();
+//         if (node.val <= last) {
+//             return false;
+//         }
+//         last = node.val;
+//         root = node.right;
+//     }
+
+//     return true;
+// };
+
 /**
  * @param {TreeNode} root
  * @return {boolean}
  */
 var isValidBST = function (root) {
-    if (root === null) {
-        return true;
-    }
+    if (root === null) return true;
     let last = Number.MIN_SAFE_INTEGER;
-    let res = true;
-    function isValid(root) {
-        if (root === null) {
+    let f = true;
+    function dfs(node) {
+        if (node === null) {
             return;
         }
-        isValid(root.left);
-        if (root.val <= last) {
-            res = false;
+        dfs(node.left);
+        if (last >= node.val) {
+            f = false;
+            return;
         }
-        last = root.val;
-        isValid(root.right);
+        last = node.val;
+        dfs(node.right);
     }
-    isValid(root);
+    dfs(root);
 
-    return res;
+    return f;
 };
 // @lc code=end
 

@@ -52,13 +52,37 @@
 // };
 
 // 3
+// /**
+//  * @param {number} x
+//  * @param {number} n
+//  * @return {number}
+//  */
+// var myPow = function (x, n) {
+//   return Math.pow(x, n)
+// };
+
+// 4
 /**
  * @param {number} x
  * @param {number} n
  * @return {number}
  */
 var myPow = function (x, n) {
-  return Math.pow(x, n)
+  function pow(x, n) {
+    if (n === 0) return 1;
+    if (n === 1) return x;
+    const a = pow(x, Math.floor(n / 2));
+    if (n % 2 === 0) {
+      return a * a;
+    } else {
+      return a * a * x;
+    }
+  }
+  const b = pow(x, Math.abs(n));
+  if (n < 0) {
+    return 1 / b;
+  }
+  return b;
 };
 // @lc code=end
 

@@ -120,42 +120,81 @@
 // }
 
 // 方法4
+// var threeSum = function (nums) {
+//   nums.sort((a, b) => a - b);
+//   let res = [];
+//   let len = nums.length;
+//   for (let i = 0; i < len; i++) {
+//     if (nums[i] > 0) { // 这里参考题解做了一个优化，很厉害
+//       continue;
+//     }
+//     if (i > 0 && nums[i] === nums[i - 1]) {
+//       continue;
+//     } 
+//     let t = -nums[i];
+//     let m = i + 1;
+//     let n = len - 1;
+//     while (m < n) {
+//       if (m > i + 1 && nums[m] === nums[m - 1]) { // 去重
+//         m++;
+//         continue;
+//       }
+//       if (n < len - 1 && nums[n] === nums[n + 1]) {
+//         n--;
+//         continue;
+//       }
+//       let sum = nums[m] + nums[n];
+//       if (sum === t) {
+//         res.push([
+//           nums[i],
+//           nums[m],
+//           nums[n]
+//         ]);
+//         m++;
+//         n--;
+//       } else if (sum > t) {
+//         n--;
+//       } else {
+//         m++;
+//       }
+//     }
+//   }
+//   return res
+// }
+
+
+// 5
 var threeSum = function (nums) {
+  const res = [];
   nums.sort((a, b) => a - b);
-  let res = [];
-  let len = nums.length;
-  for (let i = 0; i < len; i++) {
-    if (nums[i] > 0) { // 这里参考题解做了一个优化，很厉害
-      continue;
-    }
-    if (i > 0 && nums[i] === nums[i - 1]) {
-      continue;
-    } 
-    let t = -nums[i];
-    let m = i + 1;
-    let n = len - 1;
-    while (m < n) {
-      if (m > i + 1 && nums[m] === nums[m - 1]) { // 去重
-        m++;
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] > 0) continue;
+    if (i > 0 && nums[i] === nums[i - 1]) continue;
+    const target = -nums[i];
+    let left = i + 1;
+    let right = nums.length - 1;
+    while (left < right) {
+      if (left > i + 1 && nums[left] === nums[left - 1]) {
+        left++;
         continue;
-      }
-      if (n < len - 1 && nums[n] === nums[n + 1]) {
-        n--;
+      };
+      if (right < nums.length - 1 && nums[right] === nums[right + 1]) {
+        right--;
         continue;
-      }
-      let sum = nums[m] + nums[n];
-      if (sum === t) {
+      };
+      const sum = nums[left] + nums[right];
+      if (sum === target) {
         res.push([
           nums[i],
-          nums[m],
-          nums[n]
-        ]);
-        m++;
-        n--;
-      } else if (sum > t) {
-        n--;
+          nums[left],
+          nums[right],
+        ])
+        left++;
+        right--;
+      } else if (sum < target) {
+        left++;
       } else {
-        m++;
+        right--;
       }
     }
   }
