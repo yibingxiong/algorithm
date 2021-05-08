@@ -32,25 +32,74 @@
 // };
 
 // 2
+// /**
+//  * @param {number} n
+//  * @return {string[]}
+//  */
+// var generateParenthesis = function (n) {
+//   const res = [];
+//   function gen(str, r, l) {
+//     if (r === 0 && l === 0) {
+//       res.push(str);
+//       return;
+//     }
+//     if (l > 0) {
+//       gen(str + '(', r + 1, l - 1);
+//     }
+//     if (r > 0) {
+//       gen(str + ')', r - 1, l);
+//     }
+//   }
+//   gen('', 0, n);
+//   return res;
+// };
+
+
+// 3
+// /**
+//  * @param {number} n
+//  * @return {string[]}
+//  */
+// var generateParenthesis = function (n) {
+//   const res = [];
+//   function generate(l, r, s) {
+//     if (l === 0 && r === 0) {
+//       res.push(s);
+//       return;
+//     }
+//     if (l > 0) {
+//       generate(l - 1, r + 1,s + '(', );
+//     }
+//     if (r > 0) {
+//       generate(l, r - 1,s + ')', );
+//     }
+//   }
+//   generate(n, 0, '');
+//   return res;
+// };
+
+// 4
 /**
  * @param {number} n
  * @return {string[]}
  */
-var generateParenthesis = function (n) {
+ var generateParenthesis = function (n) {
   const res = [];
-  function gen(str, r, l) {
-    if (r === 0 && l === 0) {
-      res.push(str);
+  function generate(l, r, s) {
+    if (l === 0 && r === 0) {
+      res.push(s);
       return;
     }
-    if (l > 0) {
-      gen(str + '(', r + 1, l - 1);
-    }
-    if (r > 0) {
-      gen(str + ')', r - 1, l);
+    if (r === l) {
+      generate(l-1, r, s+'(');
+    } else {
+      if (l > 0) {
+        generate(l-1, r, s+'(');
+      }
+      generate(l, r-1, s+')')
     }
   }
-  gen('', 0, n);
+  generate(n, n, '');
   return res;
 };
 // @lc code=end
